@@ -41,6 +41,8 @@ round-avatar: false
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
 title-img: "/assets/figures/Story/logo.png"
+# make the title-img bigger
+title-img-width: 200px
 
 
 #####################################
@@ -145,9 +147,7 @@ footer-hover-col: "#0085A1"
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
 
-navbar-img: "/assets/img/bgimage.png"
-# make the navbar-img bigger
-navbar-img-height: 100px
+navbar-img: "/assets/img/leather.png"
 #footer-img: "/assets/img/bgimage.png"
 #page-img: "/assets/img/bgimage.png"
 
