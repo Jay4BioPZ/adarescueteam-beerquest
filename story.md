@@ -42,4 +42,6 @@ test
 # TODO: Show the gluten_free_reviews_per_country map!!!
 Interactive map. The size of the human icon represents the number of users, but the size-scaling follows a cubic root function to avoid the dominance of large countries (This was decided arbitrarily).
 
-### <span style="color: red;">Last but not least for this part, it would be interesting to see the temporal evolution of gf reviews in specific countries. Here France, Belgium, Canada and United States of America are selected.</span>
+### <span style="color: red;">Until now, our investigation pointed us towards some specific countries that we think most likely contain the Bobos Heaquarters: France, Belgium, Canada and the United States of America. Thus, it would be interesting to see the temporal evolution of gf reviews specifically in these countries.</span>
+
+# TODO: put all the plots from the folder entitled bobo_countries_temporal_plots
