@@ -14,7 +14,16 @@ subtitle: Looking into the World of Gluten Free Beer
 
 ### Another section
 
-test
+### <span style="color: red;">For our quest, and to more easily highlight the Bobos, we need to detect what they have to say on the Beers. This basically implies that we need to analyse the beer reviews.</span>
+
+### <span style="color: red;">We start our textual analysis by a general EDA to detect the languages that are present in the dataset</span>
+
+### <span style="color: red;">Hence we start! Part 1:Language processing</span>
+
+# TODO: include the piechart of the beer reviews!!!
+
+# TODO: include the piechart of the unique and non_unique styles!!!
+
 
 ### Another section 2
 
@@ -35,6 +44,8 @@ test
 ### <span style="color: green;">With that we are sure: the increase of gluten-free beers reviews is not due to the increase of the total number of reviews in the dataset. There can only be one explanation for that: the Bobos are clearly more and more present, globally.</span>
 
 ### <span style="color: red;">But, where are they? We now need to go to study the spatial distribution of the Bobos through their beer reviews.</span>
+
+### Another section 3
 
 #### <span style="color: green;">Here we define `ratio` as the ratio of the number of reviews for glutenfree beers to the non-glutenfree beers. For each country, the ratio is a representative of the "enrichment of glutenfree beer reviews", reflecting the popularity of glutenfree beers in that country.
 #### <span style="color: green;">We then color the countries according to the ratio, and visualize the absolute number of users and reviews for glutenfree beers at the same time. This step was done using an interactive map.</span>
