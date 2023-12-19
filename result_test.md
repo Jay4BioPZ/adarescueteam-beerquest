@@ -8,7 +8,9 @@ subtitle: Testing if there is any issue with the plotting and interactive plot
 
 Here is the interactive map
 
-!![Interactive map](/assets/html/gf_reviews_map.html)
+<div>
+    <iframe src="./assets/html/bf_reviews_map.html" width='60%' height='950'></iframe>
+</div>
 
 ### Static map
 
