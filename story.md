@@ -36,7 +36,12 @@ test
 
 ### <span style="color: red;">But, where are they? We now need to go to study the spatial distribution of the Bobos through their beer reviews.</span>
 
-<span style="color: green;">Here we define `ratio` as the ratio of the number of reviews for glutenfree beers to the non-glutenfree beers. For each country, the ratio is a representative of the "enrichment of glutenfree beer reviews", reflecting the popularity of glutenfree beers in that country.
+#### <span style="color: green;">Here we define `ratio` as the ratio of the number of reviews for glutenfree beers to the non-glutenfree beers. For each country, the ratio is a representative of the "enrichment of glutenfree beer reviews", reflecting the popularity of glutenfree beers in that country.
+#### <span style="color: green;">We then color the countries according to the ratio, and visualize the absolute number of users and reviews for glutenfree beers at the same time. This step was done using an interactive map.</span>
 
-We then color the countries according to the ratio, and visualize the absolute number of users and reviews for glutenfree beers at the same time. This step was done using an interactive map.</span>
+# TODO: Show the gluten_free_reviews_per_country map!!!
+Interactive map. The size of the human icon represents the number of users, but the size-scaling follows a cubic root function to avoid the dominance of large countries (This was decided arbitrarily).
 
+### <span style="color: red;">Until now, our investigation pointed us towards some specific countries that we think most likely contain the Bobos Heaquarters: France, Belgium, Canada and the United States of America. Thus, it would be interesting to see the temporal evolution of gf reviews specifically in these countries.</span>
+
+# TODO: put all the plots from the folder entitled bobo_countries_temporal_plots
