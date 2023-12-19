@@ -21,6 +21,7 @@ author: ADArescueteam
 
 navbar-links:
   Story: story
+  Result: result_test
   # Resources:
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
   #   - Learn markdown: "https://www.markdowntutorial.com/"
