@@ -33,7 +33,7 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-#avatar: "/assets/img/avatar-icon.png"
+avatar: "/assets/figures/Story/logo.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: false
@@ -42,7 +42,7 @@ round-avatar: false
 # then specify the following parameter
 title-img: "/assets/figures/Story/logo.png"
 # make the title-img bigger
-title-img-width: 200px
+title-img-width: 150px
 
 
 #####################################
