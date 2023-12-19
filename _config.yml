@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: My Website
+title: Beer Quest - On Finding the "BOBO"
 
 # Your name to show in the footer
-author: Some Person
+author: ADArescueteam@CS-401
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -23,8 +23,8 @@ navbar-links:
   About Me: "aboutme"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  #   - Learn markdown: "https://www.markdowntutorial.com/"
+  # Author's home: "https://deanattali.com"
 
 ################
 # --- Logo --- #
@@ -35,7 +35,7 @@ navbar-links:
 avatar: "/assets/img/avatar-icon.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
-round-avatar: true
+round-avatar: false
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
@@ -50,13 +50,13 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
+  # email: "someone@example.com"
+  # rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  # facebook: deanattali
+  # github: daattali
+  # twitter: daattali
+  # patreon: DeanAttali
+  # youtube: "@daattali"
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
@@ -103,13 +103,13 @@ url-pretty: "MyWebsite.com"
 excerpt_length: 50
 
 # Whether or not to show an excerpt for every blog post in the feed page
-feed_show_excerpt: true
+feed_show_excerpt: false
 
 # Whether or not to show a list of tags below each post preview in the feed page
-feed_show_tags: true
+feed_show_tags: false
 
 # Add a search button to the navbar
-post_search: true
+post_search: false
 
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
 edit_page_button: true
