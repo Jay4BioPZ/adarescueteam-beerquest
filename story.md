@@ -10,7 +10,7 @@ The international Beer league sent us, the renowned elite Beer detectives to unv
 
 ### The Footprint of the Bobo, When and Where?
 
-<!-- {% include_relative assets/html/gf_reviews_map.html style = "height: 1000px; width: 800px;" %} -->
+{% include_relative assets/html/gf_reviews_map.html style = "height: 1000px; width: 800px;" %}
 
 The map is above. COOOOL!
 repeating content just to check if it works
