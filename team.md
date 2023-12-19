@@ -20,6 +20,8 @@ Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Findin
 - **Role:** Lead Investigator
 - **Expertise:** Data Scientist
 
+<div style="clear: both;"></div>
+
 ### Jane Smith - Data Analyst
 
 <div style="float: left; margin-right: 40px; clear: left;">
@@ -28,6 +30,8 @@ Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Findin
 
 - **Role:** Data Analyst
 - **Expertise:** Data Scientist
+
+<div style="clear: both;"></div>
 
 ### ChatGPT - Special Agent
 
