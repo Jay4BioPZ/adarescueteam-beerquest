@@ -8,9 +8,9 @@ subtitle: Testing if there is any issue with the plotting and interactive plot
 
 Here is the interactive map cool
 
-<!-- {% include gf_reviews_map.html %} -->
+<!-- {% include_relative /assets/html/gf_reviews_map.html %} -->
 
-<iframe src="/assets/html/gf_reviews_map.html" height="600px" width="100%" style="border:none;"></iframe>
+<iframe src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/html/gf_reviews_map.html" height="600px" width="100%" style="border:none;"></iframe>
 
 ### Static map
 
