@@ -12,6 +12,14 @@ subtitle: Looking into the World of Gluten Free Beer
 
 ### <span style="color: blue;">As seasoned detectives, and to start our quest, we first need to gather all the information relevant to find the Bobos.</span>
 
+### <span style="color: black;">That is why we start with the EDA.</span>
+# TODO: insert the dstrbtion of langs in the RB reviews! 
+# TODO: insert the dstrbtion of langs in the gluten-free RB reviews! 
+
+### <span style="color: green;">We find that the most represented languages by the BOBOs are English and French. This confirms our suspicion: the BOBOs are mostly present in France, Belgium, and maybe the US and Canada, this we are not sure, but must take into account as the most represented language in the dataset is English.</span>
+
+
+
 ### Another section
 
 ### <span style="color: red;">For our quest, and to more easily highlight the Bobos, we need to detect what they have to say on the Beers. This basically implies that we need to analyse the beer reviews.</span>
