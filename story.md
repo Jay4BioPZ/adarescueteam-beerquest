@@ -33,7 +33,7 @@ test
 
 ### <span style="color: green;">With that we are sure: the increase of gluten-free beers reviews is not due to the increase of the total number of reviews in the dataset. There can only be one explanation for that: the Bobos are clearly more and more present, globally.</span>
 
-### <span style="color: red;">Now we go to study the spatial distribution of the Bobos through their beer reviews.</span>
+### <span style="color: red;">But, where are they? We now need to go to study the spatial distribution of the Bobos through their beer reviews.</span>
 
 <span style="color: green;">Here we define `ratio` as the ratio of the number of reviews for glutenfree beers to the non-glutenfree beers. For each country, the ratio is a representative of the "enrichment of glutenfree beer reviews", reflecting the popularity of glutenfree beers in that country.
 
