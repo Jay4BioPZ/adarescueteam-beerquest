@@ -3,6 +3,7 @@ layout: page
 title: Beer Quest - On Finding the "BOBO"
 subtitle: Looking into the World of Gluten Free Beer
 cover-img: /assets/figures/Story/Cover_photo_1.jpeg
+share-img: /assets/figures/Story/Cover_photo_1.jpeg
 author: adarescueteam
 ---
 
