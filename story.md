@@ -24,5 +24,12 @@ test
 <span style="color: red;">Step 2: Checking the number of reviews per year for gluten free beers as a function of the location.</span>
 
 
-<img src="C:\Users\user\Desktop\M1\ADA\ada-2023-project-adarescueteam\website\adarescueteam-beerquest\figures\output.png" alt="Gluten free beers evolution through time">
+# TODO: put the figure of the gluten free beer evolution here!! 
+
+### <span style="color: green;">This plot clearly shows that the ammount of reviews for gluten-free beers is increasing.</span>
+### <span style="color: blue;">However, seasoned detectives like us must always stay vigilant: is the reason for this increase because of the increase of the popularity of the site? Or is it because of the increase of total number of reviews in the dataset?</span>
+
+# TODO: put the figure of the gluten free beer proportion evolution here!! 
+
+### <span style="color: green;">With that we are sure: the increase of gluten-free beers reviews is not due to the increase of the total number of reviews in the dataset. There can only be one explanation for that: the Bobos are clearly more and more present, globally.</span>
 
