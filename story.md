@@ -18,7 +18,7 @@ test
 
 ### Another section 2
 
-## <span style="color: red;">We needed to study the temporal activity of the Bobos to see if they were plotting something shady.</span>
+### <span style="color: red;">We needed to study the temporal activity of the Bobos to see if they were plotting something shady.</span>
 #### For that, our temporal analysis will be done in two steps.
 <span style="color: red;">Step 1: Checking the number of reviews per year for gluten free beers globally.</span>
 <span style="color: red;">Step 2: Checking the number of reviews per year for gluten free beers as a function of the location.</span>
@@ -33,3 +33,8 @@ test
 
 ### <span style="color: green;">With that we are sure: the increase of gluten-free beers reviews is not due to the increase of the total number of reviews in the dataset. There can only be one explanation for that: the Bobos are clearly more and more present, globally.</span>
 
+### <span style="color: red;">Now we go to study the spatial distribution of the Bobos through their beer reviews.</span>
+
+<span style="color: green;">Here we define `ratio` as the ratio of the number of reviews for glutenfree beers to the non-glutenfree beers. For each country, the ratio is a representative of the "enrichment of glutenfree beer reviews", reflecting the popularity of glutenfree beers in that country.
+
+We then color the countries according to the ratio, and visualize the absolute number of users and reviews for glutenfree beers at the same time. This step was done using an interactive map.</span>
