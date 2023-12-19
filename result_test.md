@@ -11,3 +11,5 @@ Here is the interactive map
 ### Static map
 
 ![Static map](/assets/img_ada/static_map.png)
+
+![Interactive map](/assets/html/gf_reviews_map.html)
