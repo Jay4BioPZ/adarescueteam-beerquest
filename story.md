@@ -21,6 +21,7 @@ test
 ### <span style="color: red;">We needed to study the temporal activity of the Bobos to see if they were plotting something shady.</span>
 #### For that, our temporal analysis will be done in two steps.
 <span style="color: red;">Step 1: Checking the number of reviews per year for gluten free beers globally.</span>
+
 <span style="color: red;">Step 2: Checking the number of reviews per year for gluten free beers as a function of the location.</span>
 
 
