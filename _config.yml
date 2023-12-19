@@ -41,9 +41,6 @@ round-avatar: false
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
 title-img: "/assets/figures/Story/logo.png"
-# make the title-img bigger
-title-img-width: 200px
-title-img-height: 200px
 
 
 
