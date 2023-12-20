@@ -17,7 +17,7 @@ Our adventure takes place during the 2010s, gluten-free food made a breakthrough
 
 As seasoned detectives, and to start our quest, we first need to gather all the information relevant to find the Bobos. That is why we start with the EDA.
 
-![EDA_GF_languages](./assets/figures/EDA/EDA_lang_dstrbtO.png)
+![EDA_GF_languages](./assets/figures/EDA/EDA_lang_dstrbt_gf.png)
 
 We find that the most represented languages by the BOBOs are English and French. This confirms our suspicion: the BOBOs are mostly present in France, Belgium, and maybe the US and Canada, this we are not sure, but must take into account as the most represented language in the dataset is English.
 
