@@ -324,8 +324,8 @@ img {
 
 .navbar-custom .avatar-container {
   position: absolute;
-  left: 50%;
-  width: 3.125rem;
+  left: 0%;
+  width: 4.125rem;
   bottom: -1.5rem;
   transition: opacity 0.5s ease-in-out;
   -webkit-transition: opacity 0.5s ease-in-out;
@@ -361,7 +361,7 @@ img {
   display: none;
 }
 
-@media (min-width: 1800px) {
+@media (min-width: 1200px) {
   .navbar-custom.top-nav-regular .avatar-container {
     width: 6.25rem;
     bottom: -1.9375rem;
@@ -377,7 +377,7 @@ img {
   }
 
   .navbar-custom.top-nav-regular .avatar-container .avatar-img {
-    width: 100%;
+    width: 200%;
   }
 }
 
