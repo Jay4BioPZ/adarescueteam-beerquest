@@ -396,16 +396,16 @@ footer {
 }
 
 footer p.text-muted {
-  color: {{ site.footer-text-col | default: "#000000" }} !important;
+  color: {{ site.footer-text-col | default: "#ffffff" }} !important;
 }
 
 footer a {
-  color: {{ site.footer-link-col | default: "#000000" }};
+  color: {{ site.footer-link-col | default: "#ffffff" }};
 }
 
 footer a:hover,
 footer a:focus {
-  color: {{ site.footer-hover-col | default: "#000000" }};
+  color: {{ site.footer-hover-col | default: "#ffffff" }};
 }
 
 footer .list-inline {
