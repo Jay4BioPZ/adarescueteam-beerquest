@@ -383,12 +383,13 @@ img {
 
 /* --- Footer --- */
 
+
 footer {
   padding: 1.875rem 0;
   border-top: 1px #EAEAEA solid;
   margin-top: 3.125rem;
   font-size: 0.875rem;
-  background-color: {{ site.footer-col | default: "#EAEAEA" }} important;
+  background-color: {{ site.footer-col | default: "#EAEAEA" }};
   {% if site.footer-img %}
     background-image: url({{ site.footer-img | relative_url }});
     background-attachment: fixed;
@@ -396,7 +397,7 @@ footer {
 }
 
 footer p.text-muted {
-  color: {{ site.footer-text-col | default: "#ffffff" }} !important;
+  color: {{ site.footer-text-col | default: "#000000" }} !important;
 }
 
 footer a {
@@ -411,7 +412,7 @@ footer a:focus {
 footer .list-inline {
   margin: 0;
   padding: 0;
-  margin-bottom: 0.875rem;
+  margin-bottom: 1.875rem;
 }
 footer .copyright {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
