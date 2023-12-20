@@ -1,0 +1,7 @@
+.custom-text-box {
+    background-image: url('path_to_your_image.png');
+    background-size: cover; /
+    background-repeat: no-repeat; 
+    padding: 20px;
+    border-radius: 5px;
+  }
