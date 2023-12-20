@@ -341,7 +341,7 @@ img {
 
 .navbar-custom .avatar-container .avatar-img-border {
   width: 100%;
-  margin-left: -100%;
+  margin-left: -50%;
   {% unless site.round-avatar == false %}
     border-radius: 50%;
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, .8);
@@ -361,10 +361,10 @@ img {
   display: none;
 }
 
-@media (min-width: 1800px) {
+@media (min-width: 1500px) {
   .navbar-custom.top-nav-regular .avatar-container {
     width: 6.25rem;
-    bottom: -3rem;
+    bottom: -2rem;
   }
 
   .navbar-custom.top-nav-regular .avatar-container .avatar-img-border {
