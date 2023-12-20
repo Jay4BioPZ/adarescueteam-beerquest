@@ -32,3 +32,35 @@ Here is the interactive map cool
 <p style="margin:10px;">Your text here</p>
 
 </div>
+
+
+# text overlay over figure
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image Overlay with Text</title> 
+    </head>
+    <body>
+        <div class="image-container">
+        <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/figures/textbox.png" alt="image">
+        <div class="overlay-text">Your text here</div>
+    </div>
+    </body>
+</html>
+
+# 
+<style type="text/css">
+  input {
+    width: 220px;
+    height: 50px;
+    display: block;
+    background: src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/figures/textbox.png";
+    border: none;
+    /* Add any other desired styling */
+  }
+</style>
+
+<input type="text" placeholder="Enter text here">
