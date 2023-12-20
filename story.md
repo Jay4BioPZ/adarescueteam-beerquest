@@ -7,26 +7,25 @@ share-img: /assets/figures/Story/Cover_photo_1.png
 author: adarescueteam
 ---
 
-> ## Investigation Overview
+## Investigation Overview
 
-> Our adventure takes place during the 2010s, gluten-free food made a breakthrough in popularity and was much more available in general shops. Interestingly, in France and Belgium, people came up with stereotypes regarding gluten-free consumers and products, describing such a trend as a flash in a pan. One of those stereotypes is about the persona of gluten-free buyers, often described as urban snobbish people who want to distinguish themselves socially by consuming non-usual products, called "Bobo" in European French-speaking areas.
+Our adventure takes place during the 2010s, gluten-free food made a breakthrough in popularity and was much more available in general shops. Interestingly, in France and Belgium, people came up with stereotypes regarding gluten-free consumers and products, describing such a trend as a flash in a pan. One of those stereotypes is about the persona of gluten-free buyers, often described as urban snobbish people who want to distinguish themselves socially by consuming non-usual products, called "Bobo" in European French-speaking areas.
 
-The international Beer league sent us, the renowned elite beer detectives to unveil the Bobos, study their characteristics and particularities, and determine if they are a threat to the international Beer drinker community.
+> The international Beer league sent us, the renowned elite beer detectives to unveil the Bobos, study their characteristics and particularities, and determine if they are a threat to the international Beer drinker community.
 
 # Get ready for the Quest
 
 As seasoned detectives, and to start our quest, we first need to gather all the information relevant to find the Bobos. That is why we start with the EDA.
 
-![EDA_GF_languages](./assets/figures/EDA/EDA_lang_dstrbtO.png)
+![EDA_GF_languages](./assets/figures/EDA/EDA_lang_dstrbt_gf.png)
 
 We find that the most represented languages by the BOBOs are English and French. This confirms our suspicion: the BOBOs are mostly present in France, Belgium, and maybe the US and Canada, this we are not sure, but must take into account as the most represented language in the dataset is English.
 
-For our quest, and to more easily highlight the Bobos, we need to detect what they have to say on the Beers. This basically implies that we need to analyse the beer reviews.
+> For our quest, and to more easily highlight the Bobos, we need to detect what they have to say on the Beers. This basically implies that we need to analyse the beer reviews.
 
 We start our textual analysis by a general EDA to detect the languages that are present in the dataset. Hence we start! Part 1:Language processing</span>
 
-![EDA_charts](./assets/figures/Style/beer_styles_piechart.png)
-![EDA_venn](./assets/figures/Style/piechart_unique_abd_non_unique.png)
+<iframe src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/html/beer_styles.html" height="800px" width="100%" style="border:none;"></iframe>
 
 ### The Bobo Footprint: Identifying the Spatiotemporal Distribution of Gluten Free Beers
 
@@ -53,7 +52,7 @@ We then color the countries according to the ratio, and visualize the absolute n
 
 The size of the human icon represents the number of users, but the size-scaling follows a cubic root function to avoid the dominance of large countries.
 
-Until now, our investigation pointed us towards some specific countries that we think most likely contain the Bobos Heaquarters: France, Belgium, Canada and the United States of America. Thus, it would be interesting to see the temporal evolution of gf reviews specifically in these countries.
+> Until now, our investigation pointed us towards some specific countries that we think most likely contain the Bobos Heaquarters: France, Belgium, Canada and the United States of America. Thus, it would be interesting to see the temporal evolution of gf reviews specifically in these countries.
 
 ![France_GF_temporal](./assets/figures/Spatiotemporal_analysis/bobo_countries_temporal_plots/FRANCE.png)
 
