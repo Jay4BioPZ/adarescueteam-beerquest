@@ -25,8 +25,7 @@ For our quest, and to more easily highlight the Bobos, we need to detect what th
 
 We start our textual analysis by a general EDA to detect the languages that are present in the dataset. Hence we start! Part 1:Language processing</span>
 
-![EDA_charts](./assets/figures/Style/beer_styles_piechart.png)
-![EDA_venn](./assets/figures/Style/piechart_unique_abd_non_unique.png)
+<iframe src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/html/beer_styles.html" height="600px" width="100%" style="border:none;"></iframe>
 
 ### The Bobo Footprint: Identifying the Spatiotemporal Distribution of Gluten Free Beers
 
