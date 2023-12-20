@@ -400,12 +400,12 @@ footer p.text-muted {
 }
 
 footer a {
-  color: {{ site.footer-link-col | default: "#404040" }};
+  color: {{ site.footer-link-col | default: "#000000" }};
 }
 
 footer a:hover,
 footer a:focus {
-  color: {{ site.footer-hover-col | default: "#0085A1" }};
+  color: {{ site.footer-hover-col | default: "#000000" }};
 }
 
 footer .list-inline {
