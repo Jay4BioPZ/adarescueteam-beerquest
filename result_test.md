@@ -25,18 +25,8 @@ Here is the interactive map cool
 </div>
 
 
-<div style="width:400px; height:200px; border:1px solid black;">
-
-<img src="assets/figures/textbox.png" style="width:300px; height:300px; float:left; margin:15px;">
-
-<p style="margin:10px;">Your text here</p>
-
-</div>
-
-
 # text overlay over figure
 
-<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -51,13 +41,15 @@ Here is the interactive map cool
     </body>
 </html>
 
-# 
+
+# text box with image
+
 <style type="text/css">
   input {
     width: 220px;
     height: 50px;
     display: block;
-    background: src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/figures/textbox.png";
+    background: url=(assets/figures/textbox.png");
     border: none;
     /* Add any other desired styling */
   }
