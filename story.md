@@ -11,7 +11,7 @@ author: adarescueteam
 
 Our adventure takes place during the 2010s, gluten-free food made a breakthrough in popularity and was much more available in general shops. Interestingly, in France and Belgium, people came up with stereotypes regarding gluten-free consumers and products, describing such a trend as a flash in a pan. One of those stereotypes is about the persona of gluten-free buyers, often described as urban snobbish people who want to distinguish themselves socially by consuming non-usual products, called "Bobo" in European French-speaking areas.
 
-> The international Beer league sent us, the renowned elite beer detectives to unveil the Bobos, study their characteristics and particularities, and determine if they are a threat to the international Beer drinker community.
+> The international Beer league sent us, the renowned elite beer detectives to unveil the Bobos, study their characteristics and particularities, and determine if they are a threat to the International Beer Drinker Community (IBDC).
 
 # Get ready for the Quest
 
@@ -23,7 +23,7 @@ We find that the most represented languages by the BOBOs are English and French.
 
 > For our quest, and to more easily highlight the Bobos, we need to detect what they have to say on the Beers. This basically implies that we need to analyse the beer reviews.
 
-We start our textual analysis by a general EDA to detect the languages that are present in the dataset. Hence we start! Part 1:Language processing</span>
+We start our textual analysis by a general EDA to detect the languages that are present in the dataset. Hence we start! 
 
 <iframe src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/html/beer_styles.html" height="800px" width="100%" style="border:none;"></iframe>
 
@@ -59,7 +59,26 @@ The size of the human icon represents the number of users, but the size-scaling 
 
 ### The Bobo Opinion: Decoding the Rating Conundrum
 
-to be continued
+Most of the reviews posted for gluten-free beers are done by people who have reviewed "normal" beers too (% of reviewer?). Those reviewers are not gluten-intolerant and must be attracted to gluten-free beer for another reason, could it be the taste or quality of the beer? In the International Beer Drinker Community(IBDC) headquarters, corridor rumors say that gluten-free beers are generally worse than "normal" ones. Those rumors might be wrong then. To make this more clear, the IBDC ask clear views on the gluten-free reviews.
+
+As the reviews metrics (rating, appearance, taste, aroma, palate, overall) are dependent of the dataset used, the RateBeer and BeerAdvocate dataset were analyzed independently. Only Ratebeer results are shown but similar ones were found for BeerAdvocate.
+
+The first things we did to investigate this, was to look at all the reviews metrics throughout the years for both gluten-free and non-gluten-free beers.
+
+![Reviews_metrics_RB](./assets/figures/MetricsRB.png)
+
+Represented are the mean value of each review metrics +/- SEM per year. 
+From this analysis, it seems that the gluten-free beers are worse from usual beers for all metrics considered. Although those metrics are increasing for gluten-free beers around 2011, when the gluten-free trend was starting for beers, they stay lower than usual beers. It is also interesting to see that those metrics also increase over time, more smoothly, for usual beers. Could the rumors spread in the IBDC HQs be true?
+
+As reliable IBDC investigators, we think it is not clear yet. We saw that the beer style are very different between gluten-free beers and non-gluten-free ones. One type of beer could be more appreciate, more tasteful or have more aroma than another one. It is then possible that the beerstyle is a confounding factor in this analysis. To address this issue, the same analysis was done but with a subset of the RateBeer or BeerAdvocate dataset that has the same proportion of beerstyle than the gluten-free ratings.
+
+![Reviews_metrics_RB_adjstyle](./assets/figures/MetricsRB_adjustedstyle.png)
+
+No difference is visible between the ratings of the subset adjusted in beerstyle and the original one, then the difference between gluten-free and usual ratings cannot be explained by a change in the beerstyle. 
+
+Our conclusion that we hereby send to the IBDC is that, indeed, gluten-free beers seem worse than usual beers on all metrics seen. However this can mean two things, that gluten-free beers are actually worse than normal beers, or that the ratings given  
+
+> Yet, even though the numeric ratings are lower for gluten-free beers, their consumption increased and kept increasing in 2017 for some countries (France, Belgium). Could this be because people do not seek to drink a good and tastefull beer when trying a gluten-free one, but to distinguish themselves socially? This is one characteristic of the Bobo we are inquired to search for. This is even more intriguing as France and Belgium are the home of the locally famous "Bobo parisiens" and "Bobo bruxellois".
 
 ### The Bobo Blueprint: Crafting the Profile Puzzle with Textual Analysis
 
