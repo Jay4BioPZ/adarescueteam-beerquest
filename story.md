@@ -39,7 +39,7 @@ We then color the countries according to the ratio, and visualize the absolute n
 
 The size of the human icon represents the number of users, but the size-scaling follows a cubic root function to avoid the dominance of large countries.
 
-> Until now, our investigation pointed us towards some specific countries that we think most likely contain the Bobos Heaquarters: France, Belgium, Canada and the United States of America. Thus, it would be interesting to see the temporal evolution of gf reviews specifically in these countries.
+> Until now, our investigation pointed us towards some specific countries that we think most likely contain the Bobos Heaquarters: France, Belgium, Canada and the United States of America. Thus, it would be interesting to see the temporal evolution of gluten-free reviews specifically in these countries.
 
 ![France_GF_temporal](./assets/figures/Spatiotemporal_analysis/bobo_countries_temporal_plots/FRANCE.png)
 
@@ -69,7 +69,32 @@ Our conclusion that we hereby send to the IBDC is that, indeed, gluten-free beer
 
 ### The Bobo Blueprint: Crafting the Profile Puzzle with Textual Analysis
 
-to be continued
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bobos distinguish themselves not only socially, but also culturally. So to exmine whether they were present through our dataset, we need to ask these questions: 
+Are there linguistic distinctions between individuals who consume gluten-free products and those who opt for conventional beer? Are there social and cultural differences reflected in the way gluten-free beer users express themselves compared to non-gluten-free beer users?
+
+We start by an Initial examination of the vocabulary (adjectives) employed to characterize gluten-free Beers. 
+Through our great minds, we thought that a fancy word describing a gluten-free beer would be something like "floral", or "Herbal". Sure enough, we found these fancy words, among many others like "Metallic" to describe a gluten-free beers. Ha! The Bobos are not hiding as well as they thought they are!
+
+To further follow this lead, we asked ourselves if the gluten-free consumers exhibit specific linguistic characteristics? Or is this vocabulary just usually used only for describing the gluten-free beers?
+
+To answer this question, we will define glutenfree users as consumers that have rated more than one glutenfree beers.
+
+
 
 ### Conclusion
 
