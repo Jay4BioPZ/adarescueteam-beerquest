@@ -24,9 +24,10 @@ The first step to do such a things is to better know how gluten-free beers are c
 - Step 2: Checking the number of reviews per year for gluten free beers as a function of the location.
 
 Gluten-free beers are identified by containing "gluten" in their name. This is not the most effective way to find them, but the IBL did not seem to have a database indicating what beers are gluten-free. This works however for beers from country speaking languages of European origin, as gluten is said "gluten" also in French, German, Dutch, Italian, Spanish. These analyses will then be somewhat European-origin centered. Nevertheless, this is also the case for the databases kindly given by the IBL. 
+
 This way, we have identified this many gluten-free beers (duplicates were removed from the total):
 
-| Dataset | Gluten-free | Non-gluten-free |
+| Dataset | Gluten-free beers | Non-gluten-free beers |
 | :------ |:--- | :--- |
 | RateBeer | 213 | 396484 |
 | BeerAdvocate | 121 | 211688 |
@@ -59,9 +60,13 @@ We can see that the ratio is the highest in France, reaching 0.66% of all review
 | Denmark | 17 | 0.001504 | 409 |
 | USA | 41 | 0.000607 | 892 |
 
-> Our investigation has encovered some characteristics of what we can call a gluten-free trend. It has exploded in 2012 but not equally in every-country. Some countries still were "highly" consuming gluten-free beers in 2017. Those countries happen to be the ones known to be home of "bobos". That might be a coincidence, or not, and require a deeper look before reporting to the IBF.  
+However, SPATIAL TEMPORAL ANALYSIS WITH FRANCE BELGIUM, CANADA AND USA
 
 ![France_GF_temporal](./assets/figures/Spatiotemporal_analysis/bobo_countries_temporal_plots/FRANCE.png)
+
+
+> Our investigation has encovered some characteristics of what we can call a gluten-free trend. It has exploded in 2012 but not equally in every-country. Some countries still were "highly" consuming gluten-free beers in 2017. Those countries happen to be the ones known to be home of "bobos". That might be a coincidence, or not, and require a deeper look before reporting to the IBL.  
+
 
 ### The Bobo Opinion: Decoding the Rating Conundrum
 
