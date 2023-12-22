@@ -42,7 +42,7 @@ Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Findin
 </div>
 
 - **Role:** Data Analyst
-- **Expertise:** Computational complexity, Machine Learning, text data analysis
+- **Expertise:** Computational complexity, Machine Learning, Text data analysis
 
 <div style="clear: both;"></div>
 
@@ -54,7 +54,7 @@ Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Findin
 </div>
 
 - **Role:** Data Analyst
-- **Expertise:** Bobo connaisseur, Text data, tables
+- **Expertise:** Bobo connaisseur, Ratings Analysis, Tables
 
 <div style="clear: both;"></div>
 
@@ -66,7 +66,7 @@ Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Findin
 </div>
 
 - **Role:** Data Analyst
-- **Expertise:** Plotting, debugging
+- **Expertise:** Plotting, Debugging, Spatial Analysis
 
 <div style="clear: both;"></div>
 
