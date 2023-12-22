@@ -183,7 +183,11 @@ First, we define a gluten-free user as someone who has rated at least one gluten
 
 As we aim to cluster the words used by the two groups, our focus lies on analyzing the frequency of adverbs and adjectives—shedding light on the users' semantics within beer reviews. This detective work seeks to unravel a clearer understanding of the users and the nuances they share, or that distinguishes them.
 
-We plotted the T-SNE map of gluten-Free users and conventional beer users, and found two things. First, that the former overlap just a little with the latter, which means that the gluten-free users only share a linguistic similarity with a small proportion of the conventional beers users. Second, that the gluten-free users are very close to each other linguistically.
+We plotted the T-SNE map of gluten-Free users and conventional beer users. 
+
+![t_sne_map](./assets/figures/NLP/tsne_map.png)
+
+We find two things. First, that the former overlap just a little with the latter, which means that the gluten-free users only share a linguistic similarity with a small proportion of the conventional beers users. Second, that the gluten-free users are very close to each other linguistically.
 
 As the t-SNE axes are not directly interpretable, we wanted to use the text data to better characterize the differences between a gluten-free and a conventional user. That is why we needed to go deeper in the analysis of the vocabulary that each of the two uses. Enter our guiding light: ‘El Logressor’ (a logistic regression clssifier), our hope in unraveling this mystery. 
 Indeed, El Logressor is a logistic classifier that predicts whether or not a person is a glutenfree user based on the adjectives and adverb he uses. 
