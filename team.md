@@ -23,8 +23,6 @@ Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Findin
 <div style="clear: both;"></div>
 
 
-
-
 ### Senior Officer Seif Hamed - Data Analyst/Data story Engineer
 
 <div style="float: left; margin-right: 40px; clear: left;">
