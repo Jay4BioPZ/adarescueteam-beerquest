@@ -11,7 +11,7 @@ author: adarescueteam
 
 Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Finding the 'BOBO'" project.
 
-### John Doe - Lead Investigator
+### Detective Alessandro Fulciniti - Lead Investigator
 
 <div style="float: left; margin-right: 40px; clear: left;">
     <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/img/avatar-icon.png" alt="John Doe" width="80" height="80">
@@ -22,16 +22,53 @@ Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Findin
 
 <div style="clear: both;"></div>
 
-### Jane Smith - Data Analyst
+### Officer Yung-Cheng Chiang - Data Analyst/Plotting engineer
 
 <div style="float: left; margin-right: 40px; clear: left;">
     <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/img/avatar-icon.png" alt="Jane Smith" width="80" height="80">
 </div>
 
 - **Role:** Data Analyst
-- **Expertise:** Data Scientist
+- **Expertise:** Plotting
 
 <div style="clear: both;"></div>
+
+
+### Officer Seif Hamed - Data Analyst/Data story engineer
+
+<div style="float: left; margin-right: 40px; clear: left;">
+    <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/img/avatar-icon.png" alt="Jane Smith" width="80" height="80">
+</div>
+
+- **Role:** Data Analyst
+- **Expertise:** Feature preparation, story ideation
+
+<div style="clear: both;"></div>
+
+
+### Officer Mathieu Charbonnier - Data Analyst/Machine Learning engineer
+
+<div style="float: left; margin-right: 40px; clear: left;">
+    <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/img/avatar-icon.png" alt="Jane Smith" width="80" height="80">
+</div>
+
+- **Role:** Data Analyst
+- **Expertise:** Computational complexity, Machine Learning, text data analysis
+
+<div style="clear: both;"></div>
+
+
+### Undercover Agent Emile Dorchies - Data Analyst/Markdown tables specialist
+
+<div style="float: left; margin-right: 40px; clear: left;">
+    <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/img/avatar-icon.png" alt="Jane Smith" width="80" height="80">
+</div>
+
+- **Role:** Data Analyst
+- **Expertise:** Bobo connaisseur, Text data, tables
+
+<div style="clear: both;"></div>
+
 
 ### ChatGPT - Special Agent
 
