@@ -33,6 +33,43 @@ Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Findin
 
 <div style="clear: both;"></div>
 
+
+### Seif Hamed - Data Analyst/Data story engineer
+
+<div style="float: left; margin-right: 40px; clear: left;">
+    <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/img/avatar-icon.png" alt="Jane Smith" width="80" height="80">
+</div>
+
+- **Role:** Data Analyst
+- **Expertise:** Feature preparation, story ideation
+
+<div style="clear: both;"></div>
+
+
+### Mathieu Charbonnier - Data Analyst/Machine Learning engineer
+
+<div style="float: left; margin-right: 40px; clear: left;">
+    <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/img/avatar-icon.png" alt="Jane Smith" width="80" height="80">
+</div>
+
+- **Role:** Data Analyst
+- **Expertise:** Machine Learning, text data analysis
+
+<div style="clear: both;"></div>
+
+
+### Emile Dorchies - Data Analyst/Markdown tables specialist
+
+<div style="float: left; margin-right: 40px; clear: left;">
+    <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/img/avatar-icon.png" alt="Jane Smith" width="80" height="80">
+</div>
+
+- **Role:** Data Analyst
+- **Expertise:** Text data, tables
+
+<div style="clear: both;"></div>
+
+
 ### ChatGPT - Special Agent
 
 <div style="float: left; margin-right: 40px; clear: left;">
