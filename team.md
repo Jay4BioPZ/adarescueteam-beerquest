@@ -185,3 +185,8 @@ Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Findin
     </tr>
   </table>
 </div>
+
+
+![t-SNE_english_reviewers](./assets/figures/NLP/t-SNE_english.png)
+
+![t-SNE_french_reviewers](./assets/figures/NLP/t-SNE_french.png)
