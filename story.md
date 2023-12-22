@@ -197,7 +197,7 @@ Enter our second guiding light: the Gluten-free bag of words.
 In fact, this 'BoW' contains words that were only used by gluten-free users in their reviews. We then analysed their fanciness by asking our Special agent Chatgpt to rank the fanciness of each word in that BoW.
 
 
-Our analysis shows that gluten free user and conventional beer user have different linguistics particularities. However, it seems that gluten-free users are not really 'BOBO' in the sense that the specific adjectives and adverbs that glutenfree user employed are not really fancy. Some of them are not very commom such that the French word 'remous', but not necessarily fancy. The main difficulty we face here is to have an objective metric to describe fanciness. 
+Our analysis shows that gluten free user and conventional beer user have different linguistics particularities. However, it seems that gluten-free users are not really 'BOBO' in the sense that the specific adjectives and adverbs that glutenfree user employed are not really fancy. Some of them are not very commom such as the French word 'remous', or the word 'gibbous' in english, but not necessarily fancy. The main difficulty we face here is to have an objective metric to describe fanciness. 
 
 
 
