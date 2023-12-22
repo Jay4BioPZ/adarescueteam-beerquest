@@ -203,5 +203,8 @@ Our analysis shows that gluten free user and conventional beer user have differe
 
 
 ### Conclusion
-To conclude, we present our final report to the IBL. Indeed, we did find a particulaity of gluten-free users compared to their conventional counterparts, however, we can not conclude with certainty that that difference was due to the actions of the Bobos.
+To conclude, we present our final report to the IBL. 
+Indeed, we have seen that glutenfree beers are less appreciated than conventional beers.This lead us to investigate why do gluten-free beer drinkers continue to drink them. We found that these consumers mostly are not allergic to gluten since they consume also conventional beers. So we investigated what drives them to drink glutenfree beers. Our hypothesis was that these persons were in fact the "BOBO"s, who drink glutenfree beers to distinguish themselves from other people in the society. To access if glutenfree users were indeed BOBO, we made a text analysis to evaluate the fanciness of the vocabolary used by glutenfree users.
+
+Finally, We did find a particulaity of gluten-free users compared to their conventional counterparts, however, we can not conclude with certainty that that difference was due to the actions of the Bobos.
 
