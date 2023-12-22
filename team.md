@@ -22,7 +22,7 @@ Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Findin
 
 <div style="clear: both;"></div>
 
-### Jay Chiang - Data Analyst/Plotting engineer
+### Yung-Cheng Chiang - Data Analyst/Plotting engineer
 
 <div style="float: left; margin-right: 40px; clear: left;">
     <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/img/avatar-icon.png" alt="Jane Smith" width="80" height="80">
