@@ -211,6 +211,7 @@ To conclude, we present our final report to the IBL:
 > Indeed, we have seen that glutenfree beers are less appreciated than conventional beers. This led us to investigate why glutenfree beer drinkers continue to drink them. We found that these consumers mostly are not allergic to gluten since they consume also conventional beers. So we investigated what drives them to drink glutenfree beers. We hypothesize that a part of these persons were indeed "BOBO"s, who drink glutenfree beers to distinguish themselves from other people in the society. To assess if glutenfree users were indeed a "BOBO", we made a text analysis to evaluate the fanciness of the vocabulary used by glutenfree users.
 > 
 > Finally, we did find a particularity of glutenfree users compared to their conventional counterparts in aspects of linguistic usage. Though, we need further data to shed light on a "Bobo"s comprehensive profile and the causality between them and glutenfree beers.
->
+
 Yours in investigation,
+
 The Beer Detectives
