@@ -18,9 +18,8 @@ To investigate, the IBL has given us two sources of information: datasets from B
 ### The Bobo Footprint: Identifying the Spatiotemporal Distribution of Gluten-Free Beers
 
 As seasoned detectives, and to start our quest, we need to gather all the information relevant to investigate the different aspects of gluten-free beers consumers, and hence whether they are any of those infamous "Bobo"s hidden amongst them.
-We start by exploring the consumption of glutenfree beers temporally and spatially:
-
-**[actual text]**, _adapt?: The first step to do such a things is to better know how gluten-free beers are consumed, both temporally and spatialy. This will be done in two steps:_
+**[actual text]: The first step to do such a things is to better know how gluten-free beers are consumed, both temporally and spatialy. This will be done in two steps:**
+ _adapt?: We start by exploring the consumption of glutenfree beers temporally and spatially:_
 
 - Step 1. Check the number of reviews given per year for gluten free beers globally.
 - Step 2: Check the number of reviews given per year for gluten free beers as a function of the location.
@@ -46,7 +45,7 @@ With that we are sure: the increase of gluten-free beers reviews is not due to t
 
 But, where are they from? We now need to go to study the spatial distribution of the gluten-free beers drinker through their beer reviews.
 
-Here we define `ratio` as the ratio of the number of reviews for glutenfree beers to the non-glutenfree beers. For each country, the ratio is a representative of **current: the "enrichment of glutenfree beer reviews"**, _adapt?: increase in number of glutenfree reviews (as the figure title changed)_ , reflecting the popularity of glutenfree beers in that country.
+Here we define `ratio` as the ratio of the number of reviews for glutenfree beers to the non-glutenfree beers. For each country, the ratio is a representative of **[actual text]: the "enrichment of glutenfree beer reviews"**, _adapt?: increase in number of glutenfree reviews (as the figure title changed)_ , reflecting the popularity of glutenfree beers in that country.
 
 We then color the countries according to the ratio 'gluten-free/non-gluten-free', and visualize the absolute number of users and reviews for glutenfree beers with the human icon. An interactive map was made public for illustration:
 
@@ -64,7 +63,7 @@ We can see that the ratio is the highest in France, reaching 0.66% of all review
 | Denmark | 17 | 0.001504 | 409 |
 | USA | 41 | 0.000607 | 892 |
 
-However, SPATIAL TEMPORAL ANALYSIS WITH FRANCE BELGIUM, CANADA AND USA
+However, the spationtemporal analyis SPATIAL TEMPORAL ANALYSIS WITH FRANCE BELGIUM, CANADA AND USA
 
 ![France_GF_temporal](./assets/figures/Spatiotemporal_analysis/bobo_countries_temporal_plots/FRANCE.png)
 
