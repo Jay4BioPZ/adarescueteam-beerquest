@@ -9,7 +9,7 @@ author: adarescueteam
 
 ## Investigation Overview
 
-Our adventure takes place during the 2010s, _glutenfree products_ made a breakthrough in popularity and was much more available in general shops. Interestingly, in _France and Belgium_, people came up with stereotypes regarding glutenfree consumers and products, describing such a trend as a flash in a pan. One of those stereotypes is about the persona of glutenfree buyers, often described as urban snobbish people who want to distinguish themselves socially by consuming non-usual products, called _"Bobo"_ in European French-speaking areas.
+Our adventure takes place during the 2010s, _glutenfree products_ made a breakthrough in popularity and were much more available in general shops. Interestingly, in _France and Belgium_, people came up with stereotypes regarding glutenfree consumers and products, describing such a trend as a flash in a pan. One of those stereotypes is about the persona of glutenfree buyers, often described as urban snobbish people who want to distinguish themselves socially by consuming non-usual products, called _"Bobo"_ in European French-speaking areas.
 
 > The International Beer League (IBL) sent us, the renowned elite beer detectives to unveil what was going on with glutenfree beers, study their characteristics and who drink them, and determine if they are a threat to the International Beer Drinker Community (IBDC) like bobos would be (according to the IBL).
 
