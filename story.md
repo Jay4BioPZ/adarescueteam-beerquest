@@ -135,7 +135,7 @@ Most of the reviews posted for gluten-free beers are done by people who have rev
 
 As the reviews metrics (rating, appearance, taste, aroma, palate, overall) are dependent on the dataset used, the RateBeer and BeerAdvocate dataset were analyzed independently. Only Ratebeer results are shown but similar ones were found for BeerAdvocate.
 
-To investigate this, the first things we did was to look at all the reviews metrics throughout the years for both gluten-free and non-gluten-free beers in the RateBeer dataset, with a rating scale ranging from minimum of 1 to a maximum of 10. **NEED MORE PRECISION, ALL METRICS DON'T HAVE THE SAME RANGE (overall>12 e.g.)**
+To investigate this, the first things we did was to look at all the reviews metrics throughout the years for both gluten-free and non-gluten-free beers in the RateBeer dataset. We note that each rating scale is ranging from minimum of 1 to a maximum of 10 except for the overall rating, where the minimum is also 1 but the maximum is 20. 
 
 ![Reviews_metrics_RB](./assets/figures/MetricsRB.png)
 
