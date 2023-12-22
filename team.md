@@ -22,7 +22,7 @@ Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Findin
 
 <div style="clear: both;"></div>
 
-### Yung-Cheng Chiang - Data Analyst/Plotting engineer
+### Officer Yung-Cheng Chiang - Data Analyst/Plotting engineer
 
 <div style="float: left; margin-right: 40px; clear: left;">
     <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/img/avatar-icon.png" alt="Jane Smith" width="80" height="80">
@@ -34,7 +34,7 @@ Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Findin
 <div style="clear: both;"></div>
 
 
-### Seif Hamed - Data Analyst/Data story engineer
+### Officer Seif Hamed - Data Analyst/Data story engineer
 
 <div style="float: left; margin-right: 40px; clear: left;">
     <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/img/avatar-icon.png" alt="Jane Smith" width="80" height="80">
@@ -46,7 +46,7 @@ Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Findin
 <div style="clear: both;"></div>
 
 
-### Mathieu Charbonnier - Data Analyst/Machine Learning engineer
+### Officer Mathieu Charbonnier - Data Analyst/Machine Learning engineer
 
 <div style="float: left; margin-right: 40px; clear: left;">
     <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/img/avatar-icon.png" alt="Jane Smith" width="80" height="80">
