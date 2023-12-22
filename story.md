@@ -54,6 +54,7 @@ We then color the countries according to the ratio 'gluten-free/non-gluten-free'
 The size of the human icon represents the number of users, but the size-scaling follows a cubic root function to avoid the dominance of large countries.
 We can see that the ratio is the highest in France, reaching 0.66% of all reviews from France. This country is known to be the main home of bobos, with Belgium (ranked 3rd with 0.34%). On the American continent, in Canada the ratio is of 0.28% whereas in the US it is only 0.06%. From this, we can see that countries with high number of gluten-free reviews (e.g. Canada, Denmark, USA) are not always the ones with high gluten-free/non-gluten-free. 
 
+<center>
 | Country | Rank | Ratio | Gluten-free reviews number |
 | :------ |:---- | :---- | :--------|
 | France | 1 | 0.006610 | 116 |
@@ -62,6 +63,7 @@ We can see that the ratio is the highest in France, reaching 0.66% of all review
 | Canada | 9 | 0.002826 | 799 |
 | Denmark | 17 | 0.001504 | 409 |
 | USA | 41 | 0.000607 | 892 |
+</center>
 
 However, the spationtemporal analyis SPATIAL TEMPORAL ANALYSIS WITH FRANCE BELGIUM, CANADA AND USA
 
