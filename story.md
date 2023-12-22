@@ -131,7 +131,7 @@ It is important to note that 98% of the people who reviewed gluten-free beers al
 
 ### The Bobo Opinion: Decoding the Rating Conundrum
 
-Most of the reviews posted for gluten-free beers are done by people who have reviewed "normal" beers too. Thus, those reviewers are not gluten-intolerant and must be attracted to gluten-free beer for another reason. Could that reason be the taste or the quality of the gluten-free beer? In the International Beer League(IBL) headquarters, corridor rumors say that gluten-free beers are generally worse than "normal" ones. Those rumors might be wrong then. To make this more clear, the IBL ask clear views on the gluten-free reviews.
+Most of the reviews posted for gluten-free beers are done by people who have reviewed "normal" beers too. Thus, those reviewers are not gluten-intolerant and must be attracted to gluten-free beer for another reason. Could that reason be a better taste or a better quality of the gluten-free beer? In the International Beer League(IBL) headquarters, corridor rumors say that gluten-free beers are generally worse than "normal" ones. Those rumors might be wrong then. To make this clearer, the IBL asks us to give a clearer view on the gluten-free reviews.
 
 As the reviews metrics (rating, appearance, taste, aroma, palate, overall) are dependent on the dataset used, the RateBeer and BeerAdvocate dataset were analyzed independently. Only Ratebeer results are shown but similar ones were found for BeerAdvocate.
 
