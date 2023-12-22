@@ -66,8 +66,8 @@ We then color the countries according to the ratio 'gluten-free/non-gluten-free'
 
 <iframe src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/html/gf_reviews_map.html" height="600px" width="100%" style="border:none;"></iframe>
 
-The size of the human icon represents the number of users, but the size-scaling follows a cubic root function to avoid the dominance of large countries.
-We can see that the ratio is the highest in France, reaching 0.66% of all reviews from France. This country is known to be the main home of bobos, with Belgium (ranked 3rd with 0.34%). On the American continent, in Canada the ratio is of 0.28% whereas in the US it is only 0.06%. From this, we can see that countries with high number of gluten-free reviews (e.g. Canada, Denmark, USA) are not always the ones with high gluten-free/non-gluten-free.
+The size of the human icon represents the number of users, but the size-scaling follows a cubic root function to avoid the dominance of large countries. Moreover, French Guiana and Corsica are associated to the french region, but they are only minorly represented in the dataset of the reviews. They appear on the map due to a limitation of our analyzing tools. Nevertheless, there is only two english reviews in the dataset which are associated with the French Guiana and none from Corsica, and thus do not influence the following analysis.
+We can see that the ratio is the highest in France, reaching 0.66% of all reviews from France, which is the country known to be the main home of bobos, along with Belgium (ranked 3rd with 0.34%). On the American continent, in Canada the ratio is of 0.28% whereas in the US it is only 0.06%. From this, we can see that countries with high number of gluten-free reviews (e.g. Canada, Denmark, USA) are not always the ones with high gluten-free/non-gluten-free.
 
 <div align="center">
   <table>
@@ -179,7 +179,7 @@ Thus, let's explore the distribution of the languages that can be found in the g
 
 We find that the most represented languages by the gluten-free drinkers are English and French. Assuming that Bobos like to hide among the gluten-free drinkers, this confirms our suspicion: the "Bobo"s are mostly present in France, Belgium, and maybe the US and Canada, which we can only assume, but we need to take it into account as English is the most represented language. 
 
-First, we define a gluten-free user as someone who has rated at least one gluten-free beer and dub the potential "Bobo"s that are present in USA and Canada as the 'English-speaking "Bobo"s', and in France and Belgium the 'French-speaking "Bobo"s'. French Guiana and Corsica are minorly represented, but countries related to the lemma 'France', and thus appear on the map. Nevertheless, there is only two english reviews in the dataset which are associated with the location "French Guiana" and none from Corsica, and therefore wont influence the answer to our question: Are there differences between 'English-speaking "Bobo"s' and their fellow 'French-speaking "Bobo"s'?
+First, we define a gluten-free user as someone who has rated at least one gluten-free beer and dub the potential "Bobo"s that are present in USA and Canada as the 'English-speaking "Bobo"s', and in France and Belgium the 'French-speaking "Bobo"s'. We want to answer the question: Are there differences between 'English-speaking "Bobo"s' and their fellow 'French-speaking "Bobo"s'?
 
 As we aim to cluster the words used by the two groups, our focus lies on analyzing the frequency of adverbs and adjectives—shedding light on the users' semantics within beer reviews. This detective work seeks to unravel a clearer understanding of the users and the nuances they share, or that distinguishes them.
 
