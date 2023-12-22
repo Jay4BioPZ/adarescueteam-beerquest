@@ -185,7 +185,7 @@ As we aim to cluster the words used by the two groups, our focus lies on analyzi
 
 We found that one of the clusters had a proportion of more than 80% of reviewers who share similar linguistic characteristic, which very heavily pointed towards gluten-free users.
 
-As our investigation zeroed in on a cohort possibly standing out amidst the realm of gluten-free consumers, our certainty grew—we sensed we were threading the right path. Our findings highlighted a captivating set of users, yet the enigmatic ‘Bobo’s’ remained evasive, slipping beyond our reach. That is why we needed to go deeper in the analysis of the vocabulary. Enter our guiding light: ‘El Logressor’ (logistic regression), our hope in unraveling their mystery. 
+As our investigation zeroed in on a cohort possibly standing out amidst the realm of gluten-free consumers, our certainty grew—we sensed we were threading the right path. Our findings highlighted a captivating set of users, yet the enigmatic ‘Bobo’s’ remained evasive, slipping beyond our reach. That is why we needed to go deeper in the analysis of the vocabulary. Enter our guiding light: ‘El Logressor’ (a logistic regression clssifier), our hope in unraveling their mystery. 
 
 Indeed, El Logressor is a logistic classifier that predicts whether or not a person is a glutenfree user based on the adjectives and adverb he uses. 
 
