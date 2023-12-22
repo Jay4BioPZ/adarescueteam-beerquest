@@ -152,7 +152,7 @@ Now we can adress the issue mentioned beforehands, and repeat the same analysis 
 
 ![Reviews_metrics_RB_adjstyle](./assets/figures/MetricsRB_adjustedstyle.png)
 
-No difference is visible between the ratings of the subset adjusted in beerstyle and the original one, then the difference between gluten-free and usual ratings cannot be explained by a change in the beerstyle. 
+No difference is visible between the ratings of the subset adjusted in beerstyle and the original one. We can thus conclude that the difference between gluten-free and conventional beer ratings cannot be explained by a change in the beerstyle. 
 
 The ratings given to gluten-free beers do seem lower than the ones for usual beers. There could however be two explanation for this. The first and obvious one is that the gluten-free beers would actually be worse than "normal" beers. Verifying this would require the IBL to send beer experts to objectively rate gluten-free beers. However, beer experts cost a lot of money and, given its political landscape, the IBL do not seem to finance science this much. The second explanation would be that people would have heard the same rumors as the one spreading among the IBL, and would have a made-up mind about gluten-free beers. People would then be harsher in the reviews.
 
