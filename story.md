@@ -37,7 +37,7 @@ This way, we have identified this many gluten-free beers (duplicates were remove
 | Total | 313 | 592069 |
 
 
-If we take a look at the ammount of reviews for gluten-free beers, we can see that it is clearly increasing. The datasets goes up to August 2017, which explains a lower amount of reviews for 2017.  However, seasoned detectives like us must always stay vigilant: is the reason for this increase because of the increase of the popularity of the websites? Or is it because of the increase of total number of reviews in the dataset? To look at that, we look at the proportion of total reviews that are made on gluten-free beers for each year.
+If we take a look at the amount of reviews for gluten-free beers, we can see that it is clearly increasing. The datasets goes up to August 2017, which explains a lower amount of reviews for 2017.  However, seasoned detectives like us must always stay vigilant: is the reason for this increase because of the increase of the popularity of the websites? Or is it because of the increase of total number of reviews in the dataset? To look at that, we look at the proportion of total reviews that are made on gluten-free beers for each year.
 
 ![GF_temporal_amount](./assets/figures/Spatiotemporal_analysis/GF_temporal.png)
 
@@ -98,18 +98,18 @@ Our conclusion that we hereby send to the IBDC is that, indeed, gluten-free beer
 
 Through our great minds, we thought that a fancy word describing a gluten-free beer would be something like "floral", or "Herbal". Sure enough, we found these fancy words, among many others like "Metallic" to describe a gluten-free beers. Ha! The Bobos are not hiding as well as they thought they are!
 
-Indeed, bobos distinguish themselves socially and culturally, by deploying words that are overly specific and fancy. So to examine whether they were present through our dataset, we need to ask these questions: 
+Indeed, "Bobo"s distinguish themselves socially and culturally, by deploying words that are overly specific and fancy. So to examine whether they were present through our dataset, we need to ask these questions: 
 Are there linguistic distinctions between individuals who consume gluten-free products and those who opt for conventional beer? Are there social and cultural differences reflected in the way gluten-free beer users express themselves compared to non-gluten-free beer users?
 
-
-Hence, we start our textual analysis by a general EDA to detect the languages that are present in the dataset. 
+**[actual]: Hence, we start our textual analysis by a general EDA to detect the languages that are present in the dataset.**
+_adapt?: Let's explore the distribution of the languages that can be found in the glutenfree review dataset:_
 
 ![EDA_GF_languages](./assets/figures/EDA/EDA_lang_dstrbt_gf.png)
 
-We find that the most represented languages by the gluten-free drinkers are English and French. Assuming that Bobos like to hide among the gluten-free drinkers, this confirms our suspicion: the BOBOs are mostly present in France, Belgium, and maybe the US and Canada, this we are not sure, but must take into account as the most represented language in the dataset is English. 
+We find that the most represented languages by the gluten-free drinkers are English and French. Assuming that Bobos like to hide among the gluten-free drinkers, this confirms our suspicion: the "Bobo"s are mostly present in France, Belgium, and maybe the US and Canada, which we can only assume, but we need to take it into account as English is the most represented language. 
 
-But first, let us define a gluten-free user as someone who has rated at least one gluten-free beer.
-Then, let us dub the potential Bobos that are present in USA and Canada as the "English-speaking Bobos", similarly, the "French-speaking Bobos" would be those present in France and Belgium.
+First, let us define a gluten-free user as someone who has rated at least one gluten-free beer.
+Then, let us dub the potential "Bobo"s that are present in USA and Canada as the "English-speaking Bobos", similarly, the "French-speaking Bobos" would be those present in France and Belgium.
 With that, we have all that we need. We can then proceed to ask ourselves: are the English-speaking Bobos different from their French accolytes?
 
 Hence, we divide our textual analysis into two parts: The first analyses the French-speaking Bobos, and the second analyses the English-speaking Bobos. 
