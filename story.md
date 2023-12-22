@@ -145,9 +145,9 @@ From this analysis, it seems that the gluten-free beers are worse from usual bee
 As reliable IBDC investigators, we think it is not clear yet. We saw that the beerstyle are very different between gluten-free beers and non-gluten-free ones. One type of beer could be more appreciate, more tasteful or have more aroma than another one. It is then possible that the beerstyle is a confounding factor in this analysis. 
 
 We put the frame for the new data around the following beerstyles:
-<div>
-<iframe id="myIframe" src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/html/beer_styles.html" width="100%" height="100%" style="border:none;"></iframe>
-</div>
+
+<iframe id="myIframe" src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/html/beer_styles.html" width="100%" height="600px" style="border:none;"></iframe>
+
 Now we can adress the issue mentioned beforehands, and repeat the same analysis with a subsetted RateBeer dataset that contains the same beerstyle as the gluten-free ratings.
 
 ![Reviews_metrics_RB_adjstyle](./assets/figures/MetricsRB_adjustedstyle.png)
@@ -175,7 +175,6 @@ We find that the most represented languages by the gluten-free drinkers are Engl
 First, we define a gluten-free user as someone who has rated at least one gluten-free beer and dub the potential "Bobo"s that are present in USA and Canada as the 'English-speaking "Bobo"s', and in France and Belgium the 'French-speaking "Bobo"s'. French Guiana and Corsica are a minorly represented, but also French speaking countries, **[how is the language?]**, and therefore considered for the further steps to answer the question: "Are there differences between 'English-speaking "Bobo"s' and their fellow 'French-speaking "Bobo"s'?"
 
 As we aim to cluster the words used by the two groups, our focus lies on analyzing the frequency of adverbs and adjectives—shedding light on the users' semantics within beer reviews. This detective work seeks to unravel a clearer understanding of the users and the nuances they share, or that distinguishes them.
-
 
 We found that one of the clusters had a proportion of more than 80% of reviewers who share similar linguistic characteristic, which very heavily pointed towards gluten-free users.
 
