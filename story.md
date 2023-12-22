@@ -13,17 +13,20 @@ Our adventure takes place during the 2010s, gluten-free food made a breakthrough
 
 > The international Beer league sent us, the renowned elite beer detectives to unveil the Bobos, study their characteristics and particularities, and determine if they are a threat to the International Beer Drinker Community (IBDC).
 
-To investigate, the IBL has given us two sources of information: datasets from BeerAdvocate and RateBeer websites. Those contains reviews of numerous beers worldwide, including numerical ratings and written comments.
+To investigate, the International Beer Legacy (IBL) has given us two sources of information: datasets from BeerAdvocate and RateBeer websites. Those contains reviews of numerous beers worldwide, including numerical ratings and written comments.
 
 ### The Bobo Footprint: Identifying the Spatiotemporal Distribution of Gluten-Free Beers
 
-As seasoned detectives, and to start our quest, we need to gather all the information relevant to find the identity of those gluten-free beers consumers, and hence whether they are those infamous bobos.
-The first step to do such a things is to better know how gluten-free beers are consumed, both temporally and spatialy. This will be done in two steps:
+As seasoned detectives, and to start our quest, we need to gather all the information relevant to investigate the different aspects of gluten-free beers consumers, and hence whether they are any of those infamous "Bobo"s hidden amongst them.
+We start by exploring the consumption of glutenfree beers temporally and spatially:
+[//]: The first step to do such a things is to better know how gluten-free beers are consumed, both temporally and spatialy. This will be done in two steps:
 
-- Step 1. Checking the number of reviews per year for gluten free beers globally.
-- Step 2: Checking the number of reviews per year for gluten free beers as a function of the location.
+- Step 1. Check the number of reviews given per year for gluten free beers globally.
+- Step 2: Check the number of reviews given per year for gluten free beers as a function of the location.
 
-Gluten-free beers are identified by containing "gluten" in their name. This is not the most effective way to find them, but the IBL did not seem to have a database indicating what beers are gluten-free. This works however for beers from country speaking languages of European origin, as gluten is said "gluten" also in French, German, Dutch, Italian, Spanish. These analyses will then be somewhat European-origin centered. Nevertheless, this is also the case for the databases kindly given by the IBL. 
+Gluten-free beers are identified by containing "gluten" in their name. This is not the most effective way to find them, but the IBL did not seem to have a database indicating what beers are gluten-free. ** This works however for beers from country speaking languages of European origin, as gluten is said "gluten" also in French, German, Dutch, Italian, and Spanish. **
+[//]: ** actual text **, adapt?: gluten also in english, text could be: ..indicating what beers are gluten-free. This includes countries that speak French, German, Dutch, Italian(?), Spanish, and English. It might be that reviews are submitted in different languages than the country the reviewer is present in the very instant, but we have not enough information to map the geolocation of the users at the point of review, and hence will return this problem to the IBL for the future.
+**These analyses will then be somewhat European-origin centered. Nevertheless, this is also the case for the databases kindly given by the IBL.**
 
 This way, we have identified this many gluten-free beers (duplicates were removed from the total):
 
