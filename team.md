@@ -11,7 +11,7 @@ author: adarescueteam
 
 Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Finding the 'BOBO'" project.
 
-### John Doe - Lead Investigator
+### Detective Alessandro Fulciniti - Lead Investigator
 
 <div style="float: left; margin-right: 40px; clear: left;">
     <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/img/avatar-icon.png" alt="John Doe" width="80" height="80">
@@ -22,14 +22,14 @@ Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Findin
 
 <div style="clear: both;"></div>
 
-### Jane Smith - Data Analyst
+### Jay Chiang - Data Analyst/Plotting engineer
 
 <div style="float: left; margin-right: 40px; clear: left;">
     <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/img/avatar-icon.png" alt="Jane Smith" width="80" height="80">
 </div>
 
 - **Role:** Data Analyst
-- **Expertise:** Data Scientist
+- **Expertise:** Plotting
 
 <div style="clear: both;"></div>
 
