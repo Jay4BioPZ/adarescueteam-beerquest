@@ -146,7 +146,9 @@ As reliable IBDC investigators, we think it is not clear yet. We saw that the be
 
 We put the frame for the new data around the following beerstyles:
 
-<iframe id="myIframe" src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/html/beer_styles.html" width="100%" style="border:none;"></iframe>
+<div id="iframeContainer" style="text-align: center;">
+    <iframe id="myIframe" src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/html/beer_styles.html" width="100%" height="100%" style="border:none;"></iframe>
+</div>
 
 Now we can adress the issue mentioned beforehands, and repeat the same analysis with a subsetted RateBeer dataset that contains the same beerstyle as the gluten-free ratings.
 
