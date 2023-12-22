@@ -135,7 +135,7 @@ Most of the reviews posted for gluten-free beers are done by people who have rev
 
 As the reviews metrics (rating, appearance, taste, aroma, palate, overall) are dependent on the dataset used, the RateBeer and BeerAdvocate dataset were analyzed independently. Only Ratebeer results are shown but similar ones were found for BeerAdvocate.
 
-To investigate this, the first things we did was to look at all the reviews metrics throughout the years for both gluten-free and non-gluten-free beers in the RateBeer dataset, with a rating scale ranging from minimum of 1 to a maximum of 10. **NEED MORE PRECISION, ALL METRICS DON'T HAVE THE SAME RANGE (overall>12 e.g.)**
+To investigate this, the first things we did was to look at all the reviews metrics throughout the years for both gluten-free and non-gluten-free beers in the RateBeer dataset. We note that each rating scale is ranging from minimum of 1 to a maximum of 10 except for the overall rating, where the minimum is also 1 but the maximum is 20. 
 
 ![Reviews_metrics_RB](./assets/figures/MetricsRB.png)
 
@@ -194,14 +194,17 @@ However, it can not distinguish between the "Bobo"s and the "non-Bobo"s amongst 
 As our investigation zeroed in on a cohort possibly standing out amidst the realm of gluten-free consumers, our certainty grew—we sensed we were threading the right path. Our findings highlighted a captivating set of users, yet the enigmatic ‘Bobo’s’ remained evasive, slipping beyond our reach. That is why we needed to go deeper in the analysis of the vocabulary, separating the gluten-free users' vocabulary from the conventional beer users to better highlight the fluten-free users. This would then enable us to see if there is Bobo's amongst the gluten-free users. 
 
 Enter our second guiding light: the Gluten-free bag of words.
-In fact, this BoW contains words that were only used by gluten-free users in their reviews. We then analysed their fanciness by asking our Special agent Chatgpt to rank the fanciness of each word in that BoW.
+In fact, this 'BoW' contains words that were only used by gluten-free users in their reviews. We then analysed their fanciness by asking our Special agent Chatgpt to rank the fanciness of each word in that BoW.
 
 
-
+Our analysis shows that gluten free user and conventional beer user have different linguistics particularities. However, it seems that gluten-free users are not really 'BOBO' in the sense that the specific adjectives and adverbs that glutenfree user employed are not really fancy. Some of them are not very commom such that the French word 'remous', but not necessarily fancy. The main difficulty we face here is to have an objective metric to describe fanciness. 
 
 
 
 
 ### Conclusion
+To conclude, we present our final report to the IBL. 
+Indeed, we have seen that glutenfree beers are less appreciated than conventional beers.This lead us to investigate why do gluten-free beer drinkers continue to drink them. We found that these consumers mostly are not allergic to gluten since they consume also conventional beers. So we investigated what drives them to drink glutenfree beers. Our hypothesis was that these persons were in fact the "BOBO"s, who drink glutenfree beers to distinguish themselves from other people in the society. To access if glutenfree users were indeed BOBO, we made a text analysis to evaluate the fanciness of the vocabolary used by glutenfree users.
 
-to be continued
+Finally, We did find a particulaity of gluten-free users compared to their conventional counterparts, however, we can not conclude with certainty that that difference was due to the actions of the Bobos.
+
