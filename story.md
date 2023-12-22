@@ -122,7 +122,9 @@ We can see that the ratio is the highest in France, reaching 0.66% of all review
 
 However, the spationtemporal analyis SPATIAL TEMPORAL ANALYSIS WITH FRANCE BELGIUM, CANADA AND USA
 
+<div align="center">
 <iframe src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/html/spatiotemporal_line_curve.html" height="400px" width="100%" style="border:none;"></iframe>
+</div>
 
 > Our investigation has encovered some characteristics of what we can call a gluten-free trend. It has exploded in 2012 but not equally in every-country. Some countries still were "highly" consuming gluten-free beers in 2017. Those countries happen to be the ones known to be home of "bobos". That might be a coincidence, or not, and require a deeper look before reporting to the IBL.  
 
