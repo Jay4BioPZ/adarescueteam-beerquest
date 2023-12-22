@@ -79,18 +79,24 @@ Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Findin
 
 - **Role:** Code Contributor and Figure Generator
 - **Expertise:** Artificial Intelligence
-<div style="display: flex; justify-content: center;">
+
+
+<div style="text-align: center;">
   <table border="1" cellpadding="5">
     <tr>
       <th>Word</th>
       <th>Fanciness Score (1-100)</th>
     </tr>
     <tr>
-      <td>admirable</td>
-      <td>70</td>
+      <td>irréprochable</td>
+      <td>75</td>
     </tr>
     <tr>
       <td>indétectable</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <td>allongement</td>
       <td>70</td>
     </tr>
     <tr>
@@ -102,19 +108,11 @@ Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Findin
       <td>65</td>
     </tr>
     <tr>
-      <td>irréprochable</td>
-      <td>75</td>
-    </tr>
-    <tr>
-      <td>botanique</td>
-      <td>60</td>
+      <td>châtaigne</td>
+      <td>65</td>
     </tr>
     <tr>
       <td>strictement</td>
-      <td>60</td>
-    </tr>
-    <tr>
-      <td>redoutable</td>
       <td>60</td>
     </tr>
     <tr>
@@ -122,23 +120,19 @@ Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Findin
       <td>60</td>
     </tr>
     <tr>
-      <td>intelligent</td>
-      <td>55</td>
+      <td>botanique</td>
+      <td>60</td>
     </tr>
     <tr>
-      <td>fiable</td>
-      <td>55</td>
-    </tr>
-    <tr>
-      <td>attribuable</td>
-      <td>55</td>
+      <td>redoutable</td>
+      <td>60</td>
     </tr>
     <tr>
       <td>confortablement</td>
       <td>55</td>
     </tr>
     <tr>
-      <td>agréable</td>
+      <td>slovaque</td>
       <td>50</td>
     </tr>
     <tr>
@@ -146,16 +140,24 @@ Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Findin
       <td>50</td>
     </tr>
     <tr>
-      <td>slovaque</td>
-      <td>50</td>
-    </tr>
-    <tr>
       <td>central</td>
       <td>50</td>
     </tr>
     <tr>
-      <td>adieu</td>
+      <td>agréable</td>
       <td>50</td>
+    </tr>
+    <tr>
+      <td>attribuable</td>
+      <td>55</td>
+    </tr>
+    <tr>
+      <td>fiable</td>
+      <td>55</td>
+    </tr>
+    <tr>
+      <td>intelligent</td>
+      <td>55</td>
     </tr>
     <tr>
       <td>fier</td>
@@ -177,16 +179,9 @@ Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Findin
       <td>principal</td>
       <td>40</td>
     </tr>
-  </table>
-  <table border="1" cellpadding="5">
-    <tr>
-      <th>Word</th>
-      <th>Fanciness Score (1-100)</th>
-    </tr>
     <tr>
       <td>remous</td>
       <td>30</td>
     </tr>
   </table>
 </div>
-
