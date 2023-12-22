@@ -53,19 +53,19 @@ Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Findin
 </div>
 
 - **Role:** Data Analyst
-- **Expertise:** Machine Learning, text data analysis
+- **Expertise:** Computational complexity, Machine Learning, text data analysis
 
 <div style="clear: both;"></div>
 
 
-### Emile Dorchies - Data Analyst/Markdown tables specialist
+### Undercover Agent Emile Dorchies - Data Analyst/Markdown tables specialist
 
 <div style="float: left; margin-right: 40px; clear: left;">
     <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/img/avatar-icon.png" alt="Jane Smith" width="80" height="80">
 </div>
 
 - **Role:** Data Analyst
-- **Expertise:** Text data, tables
+- **Expertise:** Bobo connaisseur, Text data, tables
 
 <div style="clear: both;"></div>
 
