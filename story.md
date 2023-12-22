@@ -68,7 +68,7 @@ Here we define `ratio` as the ratio of the number of reviews for glutenfree beer
 
 We then color the countries according to the ratio 'gluten-free/non-gluten-free', and visualize the absolute number of users and reviews for glutenfree beers with the human icon. An interactive map was made public for illustration:
 
-<iframe src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/html/gf_reviews_map.html" height="100%" width="100%" style="border:none;"></iframe>
+<iframe src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/html/gf_reviews_map.html" height="600px" width="100%" style="border:none;"></iframe>
 
 The size of the human icon represents the number of users, but the size-scaling follows a cubic root function to avoid the dominance of large countries.
 We can see that the ratio is the highest in France, reaching 0.66% of all reviews from France. This country is known to be the main home of bobos, with Belgium (ranked 3rd with 0.34%). On the American continent, in Canada the ratio is of 0.28% whereas in the US it is only 0.06%. From this, we can see that countries with high number of gluten-free reviews (e.g. Canada, Denmark, USA) are not always the ones with high gluten-free/non-gluten-free. 
@@ -122,7 +122,7 @@ We can see that the ratio is the highest in France, reaching 0.66% of all review
 
 However, the spationtemporal analyis SPATIAL TEMPORAL ANALYSIS WITH FRANCE BELGIUM, CANADA AND USA
 
-<iframe src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/html/spatiotemporal_line_curve.html" height="100%" width="100%" style="border:none;"></iframe>
+<iframe src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/html/spatiotemporal_line_curve.html" height="400px" width="100%" style="border:none;"></iframe>
 
 > Our investigation has encovered some characteristics of what we can call a gluten-free trend. It has exploded in 2012 but not equally in every-country. Some countries still were "highly" consuming gluten-free beers in 2017. Those countries happen to be the ones known to be home of "bobos". That might be a coincidence, or not, and require a deeper look before reporting to the IBL.  
 
@@ -144,7 +144,7 @@ As reliable IBDC investigators, we think it is not clear yet. We saw that the be
 
 We put the frame for the new data around the following beer styles:
 
-<iframe src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/html/beer_styles.html" height="800px" width="100%" style="border:none;"></iframe>
+<iframe src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/html/beer_styles.html" height="600px" width="100%" style="border:none;"></iframe>
 
 Now we can adress the issue mentioned beforehands, and repeat the same analysis with a subsetted RateBeer dataset that contains the same beer style as the gluten-free ratings.
 
