@@ -189,7 +189,7 @@ As our investigation zeroed in on a cohort possibly standing out amidst the real
 
 Indeed, El Logressor is a logistic classifier that predicts whether or not a person is a glutenfree user based on the adjectives and adverb he uses. 
 
-''' We then analysed the features that most effectively predict if the ratings are from glutenfree consumers or not. On the contrary, the words could be present for glutenfree users and conventional beers users but with counts with large variability. In this bag-of-words, some of them are commonly used but some words, such as metal, is very close to the first word that we think is related with BOBO. A second analysis about words that are only used by glutenfree user has been performed, and we get similar accuracy of the model.''' 
+We then analysed the features that most effectively predict if the ratings are from glutenfree consumers or not. '''On the contrary, the words could be present for glutenfree users and conventional beers users but with counts with large variability. In this bag-of-words, some of them are commonly used but some words, such as metal, is very close to the first word that we think is related with BOBO. A second analysis about words that are only used by glutenfree user has been performed, and we get similar accuracy of the model.''' 
 
 
 
