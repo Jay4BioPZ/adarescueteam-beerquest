@@ -166,15 +166,14 @@ _this? Conducting sentiment analysis on both French and English written reviews,
 
 Our conclusion, directed to the IBDC, asserts that gluten-free beers indeed exhibit lower performance across all metrics compared to regular beers. However, this trend does not correlate with the overall rising numerical ratings. Notably, the sentiment graph for gluten-free beers shares similarities with their appearance aspect. We suspect an initial product hype followed by a wave of negative ratings—perhaps stemming from initial optimism and in the following years revealing the true taste value. Around 2012, there seems to be a resurgence in the number of reviews and thus the consumption of gluten-free beers. This reinforces our suspicion regarding the "Bobo"s recent activities!
 
-### The Bobo Blueprint: Crafting the Profile Puzzle with Textual Analysis
+### The Bobo Blueprint: Crafting the Bobo Profile Puzzle through Textual Analysis
 
 Through our great minds, we thought that a fancy word describing a gluten-free beer would be something like "floral", or "Herbal". Sure enough, we found these fancy words, among many others like "Metallic" to describe a gluten-free beers. Ha! The Bobos are not hiding as well as they thought they are!
 
 Indeed, "Bobo"s distinguish themselves socially and culturally, by deploying words that are overly specific and fancy. So to examine whether they were present through our dataset, we need to ask these questions: 
 Are there linguistic distinctions between individuals who consume gluten-free products and those who opt for conventional beer? Are there social and cultural differences reflected in the way gluten-free beer users express themselves compared to non-gluten-free beer users?
 
-**[actual]: Hence, we start our textual analysis by a general EDA to detect the languages that are present in the dataset.**
-_adapt?: Let's explore the distribution of the languages that can be found in the glutenfree review dataset:_
+Thus, let's explore the distribution of the languages that can be found in the glutenfree review dataset:_
 
 ![EDA_GF_languages](./assets/figures/EDA/EDA_lang_dstrbt_gf.png)
 
