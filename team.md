@@ -14,7 +14,7 @@ Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Findin
 ### Detective Alessandro Fulciniti - Lead Investigator
 
 <div style="float: left; margin-right: 40px; clear: left;">
-    <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/img/avatar-icon.png" alt="John Doe" width="80" height="80">
+    <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/figures/Avatars/avatar_4.png" alt="John Doe" width="80" height="80">
 </div>
 
 - **Role:** Lead Investigator
@@ -25,7 +25,7 @@ Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Findin
 ### Officer Yung-Cheng Chiang - Data Analyst/Plotting engineer
 
 <div style="float: left; margin-right: 40px; clear: left;">
-    <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/img/avatar-icon.png" alt="Jane Smith" width="80" height="80">
+    <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/figures/Avatars/avatar_3.png" alt="Jane Smith" width="80" height="80">
 </div>
 
 - **Role:** Data Analyst
@@ -37,7 +37,7 @@ Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Findin
 ### Officer Seif Hamed - Data Analyst/Data story engineer
 
 <div style="float: left; margin-right: 40px; clear: left;">
-    <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/img/avatar-icon.png" alt="Jane Smith" width="80" height="80">
+    <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/figures/Avatars/avatar_5.png" alt="Jane Smith" width="80" height="80">
 </div>
 
 - **Role:** Data Analyst
@@ -49,7 +49,7 @@ Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Findin
 ### Officer Mathieu Charbonnier - Data Analyst/Machine Learning engineer
 
 <div style="float: left; margin-right: 40px; clear: left;">
-    <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/img/avatar-icon.png" alt="Jane Smith" width="80" height="80">
+    <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/figures/Avatars/avatar_1.png" alt="Jane Smith" width="80" height="80">
 </div>
 
 - **Role:** Data Analyst
@@ -61,7 +61,7 @@ Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Findin
 ### Undercover Agent Emile Dorchies - Data Analyst/Markdown tables specialist
 
 <div style="float: left; margin-right: 40px; clear: left;">
-    <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/img/avatar-icon.png" alt="Jane Smith" width="80" height="80">
+    <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/figures/Avatars/avatar_2.png" alt="Jane Smith" width="80" height="80">
 </div>
 
 - **Role:** Data Analyst
@@ -73,7 +73,7 @@ Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Findin
 ### ChatGPT - Special Agent
 
 <div style="float: left; margin-right: 40px; clear: left;">
-    <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/img/avatar-icon.png" alt="ChatGPT" width="80" height="80">
+    <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/figures/Avatars/avatar_6.png" alt="ChatGPT" width="80" height="80">
 </div>
 
 - **Role:** Code Contributor and Figure Generator
