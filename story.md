@@ -156,15 +156,15 @@ No difference is visible between the ratings of the subset adjusted in beerstyle
 
 The ratings given to gluten-free beers do seem lower than the ones for usual beers. There could however be two explanation for this. The first and obvious one is that the gluten-free beers would actually be worse than "normal" beers. Verifying this would require the IBL to send beer experts to objectively rate gluten-free beers. However, beer experts cost a lot of money and, given its political landscape, the IBL do not seem to finance science this much. The second explanation would be that people would have heard the same rumors as the one spreading among the IBL, and would have a made-up mind about gluten-free beers. People would then be harsher in the reviews.
 
-To check this, we added a sentiment analysis of the written reviews, with the hypothesis that we would way see more negative comments on the gluten-free beers with this second explanation.  
+**instead of: To check this, we added a sentiment analysis of the written reviews, with the hypothesis that we would way see more negative comments on the gluten-free beers with this second explanation. **
 
-**implement Mathieus Sentiment analysis! (checking the plots)**
+_this? Conducting sentiment analysis on both French and English written reviews, we aimed to determine if reviews aligned with ratings. Our hypothesis is that we would see way more negative reviews based on the rumors that are momentarily in circulation. Yet, we must bear in mind that bias could persist in this analysis too. The plot unveiled intriguing findings: the sentiment score mirrors the appearance trend, while the overall numerical reviews seem to diverge from the textual sentiment._
 
 ![Sentiment_evolution_over_time](./assets/figures/Sentiment_study/sentiment_evolution_over_time.png)
 
-
-
 > Yet, even though the numeric ratings are lower for gluten-free beers, their consumption increased and kept increasing in 2017 for some countries (France, Belgium). Could this be because people do not seek to drink a good and tasteful beer when trying a gluten-free one, but to distinguish themselves socially (A characteristic of the "Bobo"s, even more intriguing as France and Belgium are the home of the locally famous "Bobo parisiens" and "Bobo bruxellois").
+
+Our conclusion, directed to the IBDC, asserts that gluten-free beers indeed exhibit lower performance across all metrics compared to regular beers. However, this trend doesn't correlate with the overall rising numerical ratings. Notably, the sentiment graph for gluten-free beers shares similarities with their appearance aspect. We suspect an initial product hype followed by a wave of negative ratings—perhaps stemming from initial optimism and in the following years revealing the true taste value. Around 2012, there seems to be a resurgence. This reinforces our suspicion regarding the 'Bobos'!"
 
 ### The Bobo Blueprint: Crafting the Profile Puzzle with Textual Analysis
 
