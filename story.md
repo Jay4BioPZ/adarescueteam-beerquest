@@ -11,21 +11,22 @@ author: adarescueteam
 
 Our adventure takes place during the 2010s, gluten-free food made a breakthrough in popularity and was much more available in general shops. Interestingly, in France and Belgium, people came up with stereotypes regarding gluten-free consumers and products, describing such a trend as a flash in a pan. One of those stereotypes is about the persona of gluten-free buyers, often described as urban snobbish people who want to distinguish themselves socially by consuming non-usual products, called "Bobo" in European French-speaking areas.
 
-> The international Beer league sent us, the renowned elite beer detectives to unveil the Bobos, study their characteristics and particularities, and determine if they are a threat to the International Beer Drinker Community (IBDC).
+> The international Beer league (IBL) sent us, the renowned elite beer detectives to unveil the Bobos, study their characteristics and particularities, and determine if they are a threat to the International Beer Drinker Community (IBDC).
 
-To investigate, the International Beer Legacy (IBL) has given us two sources of information: datasets from BeerAdvocate and RateBeer websites. Those contains reviews of numerous beers worldwide, including numerical ratings and written comments.
+To investigate, the IBL has given us two sources of information: datasets from BeerAdvocate and RateBeer websites. Those contains reviews of numerous beers worldwide, including numerical ratings and written comments.
 
 ### The Bobo Footprint: Identifying the Spatiotemporal Distribution of Gluten-Free Beers
 
 As seasoned detectives, and to start our quest, we need to gather all the information relevant to investigate the different aspects of gluten-free beers consumers, and hence whether they are any of those infamous "Bobo"s hidden amongst them.
 We start by exploring the consumption of glutenfree beers temporally and spatially:
-[//]: The first step to do such a things is to better know how gluten-free beers are consumed, both temporally and spatialy. This will be done in two steps:
+
+**[actual text]**, _adapt?: The first step to do such a things is to better know how gluten-free beers are consumed, both temporally and spatialy. This will be done in two steps:_
 
 - Step 1. Check the number of reviews given per year for gluten free beers globally.
 - Step 2: Check the number of reviews given per year for gluten free beers as a function of the location.
 
-Gluten-free beers are identified by containing "gluten" in their name. This is not the most effective way to find them, but the IBL did not seem to have a database indicating what beers are gluten-free. ** This works however for beers from country speaking languages of European origin, as gluten is said "gluten" also in French, German, Dutch, Italian, and Spanish. **
-[//]: ** actual text **, adapt?: gluten also in english, text could be: ..indicating what beers are gluten-free. This includes countries that speak French, German, Dutch, Italian(?), Spanish, and English. It might be that reviews are submitted in different languages than the country the reviewer is present in the very instant, but we have not enough information to map the geolocation of the users at the point of review, and hence will return this problem to the IBL for the future.
+Gluten-free beers are identified by containing "gluten" in their name. This is not the most effective way to find them, but the IBL did not seem to have a database indicating what beers are gluten-free. **This works however for beers from country speaking languages of European origin, as gluten is said "gluten" also in French, German, Dutch, Italian, and Spanish.**
+**[actual text]**, _adapt?: gluten also in english, text could be: ..indicating what beers are gluten-free. This includes countries that speak French, German, Dutch, Italian(?), Spanish, and English. It might be that reviews are submitted in different languages than the country the reviewer is present in the very instant, but we have not enough information to map the geolocation of the users at the point of review, and hence will return this problem to the IBL for the future._
 **These analyses will then be somewhat European-origin centered. Nevertheless, this is also the case for the databases kindly given by the IBL.**
 
 This way, we have identified this many gluten-free beers (duplicates were removed from the total):
@@ -45,9 +46,9 @@ With that we are sure: the increase of gluten-free beers reviews is not due to t
 
 But, where are they from? We now need to go to study the spatial distribution of the gluten-free beers drinker through their beer reviews.
 
-Here we define `ratio` as the ratio of the number of reviews for glutenfree beers to the non-glutenfree beers. For each country, the ratio is a representative of the "enrichment of glutenfree beer reviews", reflecting the popularity of glutenfree beers in that country.
+Here we define `ratio` as the ratio of the number of reviews for glutenfree beers to the non-glutenfree beers. For each country, the ratio is a representative of **current: the "enrichment of glutenfree beer reviews"**, _adapt?: increase in number of glutenfree reviews (as the figure title changed)_ , reflecting the popularity of glutenfree beers in that country.
 
-We then color the countries according to the ratio, and visualize the absolute number of users and reviews for glutenfree beers at the same time. This step was done using an interactive map.
+We then color the countries according to the ratio 'gluten-free/non-gluten-free', and visualize the absolute number of users and reviews for glutenfree beers with the human icon. An interactive map was made public for illustration:
 
 <iframe src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/html/gf_reviews_map.html" height="600px" width="100%" style="border:none;"></iframe>
 
