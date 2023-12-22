@@ -30,6 +30,32 @@ Gluten-free beers are identified by containing "gluten" in their name. This is n
 
 This way, we have identified this many gluten-free beers (duplicates were removed from the total):
 
+
+<div align="center">
+  <table>
+    <tr>
+      <th>Dataset</th>
+      <th>Gluten-free beers</th>
+      <th>Non-gluten-free beers</th>
+    </tr>
+    <tr>
+      <td>RateBeer</td>
+      <td>213</td>
+      <td>396484</td>
+    </tr>
+    <tr>
+      <td>BeerAdvocate</td>
+      <td>121</td>
+      <td>211688</td>
+    </tr>
+    <tr>
+      <td>Total</td>
+      <td>313</td>
+      <td>592069</td>
+    </tr>
+  </table>
+</div>
+
 <div>
  <p align="center">
   <table>
