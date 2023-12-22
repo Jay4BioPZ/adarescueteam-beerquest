@@ -18,17 +18,10 @@ To investigate, the IBL has given us two sources of information: datasets from B
 ### The Bobo Footprint: Identifying the Spatiotemporal Distribution of Gluten-Free Beers
 
 As seasoned detectives, and to start our quest, we need to gather all the information relevant to investigate the different aspects of gluten-free beers consumers, and hence whether they are any of those infamous "Bobo"s hidden amongst them.
-**[actual text]: The first step to do such a things is to better know how gluten-free beers are consumed, both temporally and spatialy. This will be done in two steps:**
- _adapt?: We start by exploring the consumption of glutenfree beers temporally and spatially:_
 
-- Step 1. Check the number of reviews given per year for gluten free beers globally.
-- Step 2: Check the number of reviews given per year for gluten free beers as a function of the location.
+Gluten-free beers are identified by containing "gluten" in their name. This is not the most effective way to find them, but the IBL did not seem to have a database indicating what beers are gluten-free. This works however for beers from country speaking languages of European origin, as gluten is said "gluten" in French, German, Dutch, and Spanish, but not Italian. These analyses will then be somewhat European-origin centered. Nevertheless, this is also the case for the databases kindly given by the IBL.
 
-Gluten-free beers are identified by containing "gluten" in their name. This is not the most effective way to find them, but the IBL did not seem to have a database indicating what beers are gluten-free. **This works however for beers from country speaking languages of European origin, as gluten is said "gluten" also in French, German, Dutch, Italian, and Spanish.**
-**[actual text]**, _adapt?: gluten also in english, text could be: ..indicating what beers are gluten-free. This includes countries that speak French, German, Dutch, Italian(?), Spanish, and English. It might be that reviews are submitted in different languages than the country the reviewer is present in the very instant, but we have not enough information to map the geolocation of the users at the point of review, and hence will return this problem to the IBL for the future._
-**These analyses will then be somewhat European-origin centered. Nevertheless, this is also the case for the databases kindly given by the IBL.**
-
-This way, we have identified this many gluten-free beers (duplicates were removed from the total):
+This way, we have identified this number of gluten-free beers (duplicates were removed from the total):
 
 
 <div align="center">
@@ -56,22 +49,25 @@ This way, we have identified this many gluten-free beers (duplicates were remove
   </table>
 </div>
 
-If we take a look at the amount of reviews for gluten-free beers, we can see that it is clearly increasing. The datasets goes up to August 2017, which explains a lower amount of reviews for 2017.  However, seasoned detectives like us must always stay vigilant: is the reason for this increase because of the increase of the popularity of the websites? Or is it because of the increase of total number of reviews in the dataset? To look at that, we look at the proportion of total reviews that are made on gluten-free beers for each year.
+Now that we know gluten-free beers, we can start looking at how they are consummed, this is done in two step:
+
+- Step 1. Analyze the number of reviews given per year for gluten free beers globally.
+- Step 2: Analyze the number of reviews given per year for gluten free beers as a function of the location.
+
+If we take a look at the amount of reviews for gluten-free beers, we can see that it is clearly increasing. The datasets goes up to August 2017, which explains a lower amount of reviews for 2017.  However, seasoned detectives like us must always stay vigilant: is the reason for this increase because of the increase of the popularity of the websites? Or is it because of the increase of total number of reviews in the dataset? To look at that, we look at the proportion of total reviews that are made on gluten-free beers for each year. With that we are sure: the increase of gluten-free beers reviews is not due to the increase of the total number of reviews in the dataset. The increase in other gluten-free products in early 2010's has then been translated into the beer-drinking world, assuming that the number of reviews is a good proxy to see the consumption of one product. This increase is especially impressive as the proportion of gluten-free triples in 2012! However, this proportion stays low, only reaching 0.2% at most.
 
 ![GF_temporal_amount](./assets/figures/Spatiotemporal_analysis/GF_temporal.png)
 
-With that we are sure: the increase of gluten-free beers reviews is not due to the increase of the total number of reviews in the dataset. The increase in other gluten-free products in early 2010's has then been translated into the beer-drinking world, assuming that the number of reviews is a good proxy to see the consumption of one product. This increase is especially impressive as the proportion of gluten-free triples in 2012! However, this proportion stays low, only reaching 0.2% at most.
+But, where are those reviews from? We now need to go to investigate the spatial distribution of the gluten-free beers drinker through their beer reviews.
 
-But, where are they from? We now need to go to study the spatial distribution of the gluten-free beers drinker through their beer reviews.
-
-Here we define `ratio` as the ratio of the number of reviews for glutenfree beers to the non-glutenfree beers. For each country, the ratio is a representative of **[actual text]: the "enrichment of glutenfree beer reviews"**, _adapt?: increase in number of glutenfree reviews (as the figure title changed)_ , reflecting the popularity of glutenfree beers in that country.
+Here we define `ratio` as the ratio of the number of reviews for glutenfree beers to the non-glutenfree beers. For each country, the ratio is a representative of how much present are gluten-free reviews among the total reviews, reflecting the popularity of glutenfree beers in that country.
 
 We then color the countries according to the ratio 'gluten-free/non-gluten-free', and visualize the absolute number of users and reviews for glutenfree beers with the human icon. An interactive map was made public for illustration:
 
 <iframe src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/html/gf_reviews_map.html" height="600px" width="100%" style="border:none;"></iframe>
 
 The size of the human icon represents the number of users, but the size-scaling follows a cubic root function to avoid the dominance of large countries.
-We can see that the ratio is the highest in France, reaching 0.66% of all reviews from France. This country is known to be the main home of bobos, with Belgium (ranked 3rd with 0.34%). On the American continent, in Canada the ratio is of 0.28% whereas in the US it is only 0.06%. From this, we can see that countries with high number of gluten-free reviews (e.g. Canada, Denmark, USA) are not always the ones with high gluten-free/non-gluten-free. 
+We can see that the ratio is the highest in France, reaching 0.66% of all reviews from France. This country is known to be the main home of bobos, with Belgium (ranked 3rd with 0.34%). On the American continent, in Canada the ratio is of 0.28% whereas in the US it is only 0.06%. From this, we can see that countries with high number of gluten-free reviews (e.g. Canada, Denmark, USA) are not always the ones with high gluten-free/non-gluten-free.
 
 <div align="center">
   <table>
@@ -120,22 +116,26 @@ We can see that the ratio is the highest in France, reaching 0.66% of all review
   </table>
 </div>
 
-However, the spationtemporal analyis SPATIAL TEMPORAL ANALYSIS WITH FRANCE BELGIUM, CANADA AND USA
+However, if we dive into the evolution of the number of gluten-free reviews per country, we can see that different dynamics occur. For the USA, there was a big boom of gluten-free beers in 2012, that then fell down from 2014. Seeing this, we could say that there was a **trend** of gluten-free consumption in the US, that then passed aways as trends do. This is not the case for Canada, that we could think as close culturally to the USA, were a first boom in 2012 was supplied by another increase in 2014 and 2015, and then decreasing immensely after. In Europe, for Belgium, this increase occured in 2013 and stayed relatively constant, even thoug a second increase in 2015 could be seen. In denmark, two waves occured in 2013 and 2016, with an important decrease inbetween. Even though Denmark has way higher number of gluten-free reviews than Belgium, it is worth remenbering that their gluten-free/non-gluten-free ratio is low (a quarter of French one and half of Belgian one). In France, the dynamic is a bit different, as the first wave of gluten-free in 2012 was very dim, and gluten-free consumption increased year-by-year from 2013. This dynamic is then very country-specific, however most top performing country ratio-wise have low number of gluten-free reviews (e.g. Latvia) that doesn't enable a precise analysis.
 
 <div align="center">
 <iframe src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/html/spatiotemporal_line_curve.html" height="400px" width="100%" style="border:none;"></iframe>
 </div>
+
+Then we can see two main dynamics here: one with one or two big booms in consumption that then decrease a lot, and another one that is more long-lasting and less subject to those booms. This first dynamic can be called a peak trend, changing rapidly, whereas the second one must be driven by longer dynamics, such as the adoption of this kind of beer by a specific social group. However, as this rise in gluten-free reviews is still quite new, especially in France, we advise the IBL to continue monitoring these gluten-free dynamics.
+
+It is important to note that 98% of the people who reviewed gluten-free beers also reviewed beers containing gluten, so do not have to drink gluten-free beers for health reason (or are not strictly prohibiting gluten in their diet). This number is quite surprising, but could be explained because people who have to follow a gluten-free diet are not used to beer-drinking and so would less comment on websites such as BeerAdvocate or RateBeer.
 
 > Our investigation has encovered some characteristics of what we can call a gluten-free trend. It has exploded in 2012 but not equally in every-country. Some countries still were "highly" consuming gluten-free beers in 2017. Those countries happen to be the ones known to be home of "bobos". That might be a coincidence, or not, and require a deeper look before reporting to the IBL.  
 
 
 ### The Bobo Opinion: Decoding the Rating Conundrum
 
-Most of the reviews posted for gluten-free beers are done by people who have reviewed "normal" beers too (98% of reviewers on gluten-free beers). Those reviewers are not gluten-intolerant and must be attracted to gluten-free beer for another reason, could it be the taste or quality of the beer? In the International Beer Drinker Community(IBDC) headquarters, corridor rumors say that gluten-free beers are generally worse than "normal" ones. Those rumors might be wrong then. To make this more clear, the IBDC ask clear views on the gluten-free reviews.
+Since most of the reviews posted for gluten-free beers are done by people who have reviewed "normal" beers too. Those reviewers are not gluten-intolerant and must be attracted to gluten-free beer for another reason, could it be the taste or quality of the beer? In the International Beer League(IBL) headquarters, corridor rumors say that gluten-free beers are generally worse than "normal" ones. Those rumors might be wrong then. To make this more clear, the IBL ask clear views on the gluten-free reviews.
 
 As the reviews metrics (rating, appearance, taste, aroma, palate, overall) are dependent of the dataset used, the RateBeer and BeerAdvocate dataset were analyzed independently. Only Ratebeer results are shown but similar ones were found for BeerAdvocate.
 
-The first things we did to investigate this, was to look at all the reviews metrics throughout the years for both gluten-free and non-gluten-free beers in the RateBeer dataset, with a rating scale ranging from minimum of 1 to a maximum of 10.
+The first things we did to investigate this, was to look at all the reviews metrics throughout the years for both gluten-free and non-gluten-free beers in the RateBeer dataset, with a rating scale ranging from minimum of 1 to a maximum of 10. **NEED MORE PRECISION, ALL METRICS DON'T HAVE THE SAME RANGE (overall>12 e.g.)**
 
 ![Reviews_metrics_RB](./assets/figures/MetricsRB.png)
 
@@ -154,15 +154,17 @@ Now we can adress the issue mentioned beforehands, and repeat the same analysis 
 
 No difference is visible between the ratings of the subset adjusted in beerstyle and the original one, then the difference between gluten-free and usual ratings cannot be explained by a change in the beerstyle. 
 
-> Yet, even though the numeric ratings are lower for gluten-free beers, their consumption increased and kept increasing in 2017 for some countries (France, Belgium). Could this be because people do not seek to drink a good and tasteful beer when trying a gluten-free one, but to distinguish themselves socially (A characteristic of the "Bobo"s, even more intriguing as France and Belgium are the home of the locally famous "Bobo parisiens" and "Bobo bruxellois"). Or could it be that the ratings were given as a comparison to beers with gluten, which could be biased by the expectancies of the reviewer? 
+The ratings given to gluten-free beers do seem lower than the ones for usual beers. There could however be two explanation for this. The first and obvious one is that the gluten-free beers would actually be worse than "normal" beers. Verifying this would require the IBL to send beer experts to objectively rate gluten-free beers. However, beer experts cost a lot of money and, given its political landscape, the IBL do not seem to finance science this much. The second explanation would be that people would have heard the same rumors as the one spreading among the IBL, and would have a made-up mind about gluten-free beers. People would then be harsher in the reviews.
+
+To check this, we added a sentiment analysis of the written reviews, with the hypothesis that we would way see more negative comments on the gluten-free beers with this second explanation.  
+
+**implement Mathieus Sentiment analysis! (checking the plots)**
 
 ![Sentiment_evolution_over_time](./assets/figures/Sentiment_study/sentiment_evolution_over_time.png)
 
-implement Mathieus Sentiment analysis! (checking the plots)
 
-wait with conclu:
-Our conclusion that we hereby send to the IBDC is that, indeed, gluten-free beers seem worse than usual beers on all metrics seen. However this can mean two things, that gluten-free beers are actually worse than normal beers, or that the ratings given  
 
+> Yet, even though the numeric ratings are lower for gluten-free beers, their consumption increased and kept increasing in 2017 for some countries (France, Belgium). Could this be because people do not seek to drink a good and tasteful beer when trying a gluten-free one, but to distinguish themselves socially (A characteristic of the "Bobo"s, even more intriguing as France and Belgium are the home of the locally famous "Bobo parisiens" and "Bobo bruxellois").
 
 ### The Bobo Blueprint: Crafting the Profile Puzzle with Textual Analysis
 
