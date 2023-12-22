@@ -30,15 +30,17 @@ Gluten-free beers are identified by containing "gluten" in their name. This is n
 
 This way, we have identified this many gluten-free beers (duplicates were removed from the total):
 
-<p align="center">
-<table>
-| Dataset | Gluten-free beers | Non-gluten-free beers |
-| :------ |:--- | :--- |
-| RateBeer | 213 | 396484 |
-| BeerAdvocate | 121 | 211688 |
-| Total | 313 | 592069 |
-</table> 
-</p>
+<div>
+ <p align="center">
+  <table>
+  | Dataset | Gluten-free beers | Non-gluten-free beers |
+  | :------ |:--- | :--- |
+  | RateBeer | 213 | 396484 |
+  | BeerAdvocate | 121 | 211688 |
+  | Total | 313 | 592069 |
+  </table> 
+ </p>
+</div>
 
 If we take a look at the amount of reviews for gluten-free beers, we can see that it is clearly increasing. The datasets goes up to August 2017, which explains a lower amount of reviews for 2017.  However, seasoned detectives like us must always stay vigilant: is the reason for this increase because of the increase of the popularity of the websites? Or is it because of the increase of total number of reviews in the dataset? To look at that, we look at the proportion of total reviews that are made on gluten-free beers for each year.
 
