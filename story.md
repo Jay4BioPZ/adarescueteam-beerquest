@@ -183,17 +183,21 @@ First, we define a gluten-free user as someone who has rated at least one gluten
 
 As we aim to cluster the words used by the two groups, our focus lies on analyzing the frequency of adverbs and adjectives—shedding light on the users' semantics within beer reviews. This detective work seeks to unravel a clearer understanding of the users and the nuances they share, or that distinguishes them.
 
-We found that one of the clusters had a proportion of more than 80% of reviewers who share similar linguistic characteristic, which very heavily pointed towards gluten-free users.
+We plotted the T-SNE map of gluten-Free users and conventional beer users, and found two things. First, that the former overlap just a little with the latter, which means that the gluten-free users only share a linguistic similarity with a small proportion of the conventional beers users. Second, that the gluten-free users are very close to each other linguistically.
 
-As our investigation zeroed in on a cohort possibly standing out amidst the realm of gluten-free consumers, our certainty grew—we sensed we were threading the right path. Our findings highlighted a captivating set of users, yet the enigmatic ‘Bobo’s’ remained evasive, slipping beyond our reach. That is why we needed to go deeper in the analysis of the vocabulary. Enter our guiding light: ‘El Logressor’ (a logistic regression clssifier), our hope in unraveling their mystery. 
-
+As the t-SNE axes are not directly interpretable, we wanted to use the text data to better characterize the differences between a gluten-free and a conventional user. That is why we needed to go deeper in the analysis of the vocabulary that each of the two uses. Enter our guiding light: ‘El Logressor’ (a logistic regression clssifier), our hope in unraveling this mystery. 
 Indeed, El Logressor is a logistic classifier that predicts whether or not a person is a glutenfree user based on the adjectives and adverb he uses. 
 
-We then analysed the features that most effectively predict if the ratings are from glutenfree consumers or not. '''On the contrary, the words could be present for glutenfree users and conventional beers users but with counts with large variability. In this bag-of-words, some of them are commonly used but some words, such as metal, is very close to the first word that we think is related with BOBO. A second analysis about words that are only used by glutenfree user has been performed, and we get similar accuracy of the model.''' 
+El Logressor proved to be a formidable weapon: with a remarkable accuracy of 94%, it was able to distinguish between the gluten-free and conventional users.  
+However, it can not distinguish between the "Bobo"s and the "non-Bobo"s amongst the gluten-free users. 
+
+As our investigation zeroed in on a cohort possibly standing out amidst the realm of gluten-free consumers, our certainty grew—we sensed we were threading the right path. Our findings highlighted a captivating set of users, yet the enigmatic ‘Bobo’s’ remained evasive, slipping beyond our reach. That is why we needed to go deeper in the analysis of the vocabulary, separating the gluten-free users' vocabulary from the conventional beer users to better highlight the fluten-free users. This would then enable us to see if there is Bobo's amongst the gluten-free users. 
+
+Enter our second guiding light: the Gluten-free bag of words.
+In fact, this BoW contains words that were only used by gluten-free users in their reviews. We then analysed their fanciness by asking our Special agent Chatgpt to rank the fanciness of each word in that BoW.
 
 
 
-'''To further follow this lead, we asked ourselves if the gluten-free consumers exhibit specific linguistic characteristics? Or is this vocabulary just usually used only for describing the gluten-free beers?'''
 
 
 
