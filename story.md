@@ -107,9 +107,8 @@ _adapt?: Let's explore the distribution of the languages that can be found in th
 
 We find that the most represented languages by the gluten-free drinkers are English and French. Assuming that Bobos like to hide among the gluten-free drinkers, this confirms our suspicion: the "Bobo"s are mostly present in France, Belgium, and maybe the US and Canada, which we can only assume, but we need to take it into account as English is the most represented language. 
 
-First, let us define a gluten-free user as someone who has rated at least one gluten-free beer.
-Then, let us dub the potential "Bobo"s that are present in USA and Canada as the "English-speaking Bobos", similarly, the "French-speaking Bobos" would be those present in France and Belgium.
-With that, we have all that we need. We can then proceed to ask ourselves: are the English-speaking Bobos different from their French accolytes?
+First, we define a gluten-free user as someone who has rated at least one gluten-free beer and dub the potential "Bobo"s that are present in USA and Canada as the 'English-speaking "Bobo"s', and in France and Belgium the 'French-speaking "Bobo"s'. French Guiana and Corsica are a minorly represented, but also French speaking countries, **[how is the language?]**, and therefore considered for the further steps to answer the question: "Are there differences between 'English-speaking "Bobo"s' and their fellows 
+With that, we have all that we need. **We can then proceed to ask ourselves: are the English-speaking Bobos different from their French accolytes?** _adapt:_ 
 
 Hence, we divide our textual analysis into two parts: The first analyses the French-speaking Bobos, and the second analyses the English-speaking Bobos. 
 
