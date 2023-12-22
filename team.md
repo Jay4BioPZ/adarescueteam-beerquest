@@ -22,19 +22,10 @@ Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Findin
 
 <div style="clear: both;"></div>
 
-### Officer Yung-Cheng Chiang - Data Analyst/Plotting engineer
-
-<div style="float: left; margin-right: 40px; clear: left;">
-    <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/figures/Avatars/avatar_3.png" alt="Jane Smith" width="80" height="80">
-</div>
-
-- **Role:** Data Analyst
-- **Expertise:** Plotting
-
-<div style="clear: both;"></div>
 
 
-### Officer Seif Hamed - Data Analyst/Data story engineer
+
+### Senior Officer Seif Hamed - Data Analyst/Data story Engineer
 
 <div style="float: left; margin-right: 40px; clear: left;">
     <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/figures/Avatars/avatar_5.png" alt="Jane Smith" width="80" height="80">
@@ -46,7 +37,7 @@ Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Findin
 <div style="clear: both;"></div>
 
 
-### Officer Mathieu Charbonnier - Data Analyst/Machine Learning engineer
+### Officer Mathieu Charbonnier - Data Analyst/Machine Learning Engineer
 
 <div style="float: left; margin-right: 40px; clear: left;">
     <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/figures/Avatars/avatar_1.png" alt="Jane Smith" width="80" height="80">
@@ -58,7 +49,7 @@ Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Findin
 <div style="clear: both;"></div>
 
 
-### Undercover Agent Emile Dorchies - Data Analyst/Markdown tables specialist
+### Undercover Agent Emile Dorchies - Data Analyst/Markdown tables Specialist
 
 <div style="float: left; margin-right: 40px; clear: left;">
     <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/figures/Avatars/avatar_2.png" alt="Jane Smith" width="80" height="80">
@@ -66,6 +57,18 @@ Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Findin
 
 - **Role:** Data Analyst
 - **Expertise:** Bobo connaisseur, Text data, tables
+
+<div style="clear: both;"></div>
+
+
+### Forensic Scientist Yung-Cheng Chiang - Data Analyst/Visualisation Engineer
+
+<div style="float: left; margin-right: 40px; clear: left;">
+    <img src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/figures/Avatars/avatar_3.png" alt="Jane Smith" width="80" height="80">
+</div>
+
+- **Role:** Data Analyst
+- **Expertise:** Plotting, debugging
 
 <div style="clear: both;"></div>
 
