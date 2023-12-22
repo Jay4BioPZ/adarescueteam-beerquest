@@ -122,7 +122,9 @@ We can see that the ratio is the highest in France, reaching 0.66% of all review
 
 However, the spationtemporal analyis SPATIAL TEMPORAL ANALYSIS WITH FRANCE BELGIUM, CANADA AND USA
 
+<div align="center">
 <iframe src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/html/spatiotemporal_line_curve.html" height="400px" width="100%" style="border:none;"></iframe>
+</div>
 
 > Our investigation has encovered some characteristics of what we can call a gluten-free trend. It has exploded in 2012 but not equally in every-country. Some countries still were "highly" consuming gluten-free beers in 2017. Those countries happen to be the ones known to be home of "bobos". That might be a coincidence, or not, and require a deeper look before reporting to the IBL.  
 
@@ -140,13 +142,13 @@ The first things we did to investigate this, was to look at all the reviews metr
 Represented are the mean value of each review metrics +/- SEM per year. 
 From this analysis, it seems that the gluten-free beers are worse from usual beers for all metrics considered. Although those metrics are increasing for gluten-free beers around 2011, when the gluten-free trend was starting for beers, they stay lower than usual beers. It is also interesting to see that those metrics also increase over time, more smoothly, for usual beers. Could the rumors spread in the IBDC HQs be true?
 
-As reliable IBDC investigators, we think it is not clear yet. We saw that the beer style are very different between gluten-free beers and non-gluten-free ones. One type of beer could be more appreciate, more tasteful or have more aroma than another one. It is then possible that the beerstyle is a confounding factor in this analysis. 
+As reliable IBDC investigators, we think it is not clear yet. We saw that the beerstyle are very different between gluten-free beers and non-gluten-free ones. One type of beer could be more appreciate, more tasteful or have more aroma than another one. It is then possible that the beerstyle is a confounding factor in this analysis. 
 
-We put the frame for the new data around the following beer styles:
+We put the frame for the new data around the following beerstyles:
 
-<iframe src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/html/beer_styles.html" height="600px" width="100%" style="border:none;"></iframe>
+<iframe id="myIframe" src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/html/beer_styles.html" width="100%" style="border:none;"></iframe>
 
-Now we can adress the issue mentioned beforehands, and repeat the same analysis with a subsetted RateBeer dataset that contains the same beer style as the gluten-free ratings.
+Now we can adress the issue mentioned beforehands, and repeat the same analysis with a subsetted RateBeer dataset that contains the same beerstyle as the gluten-free ratings.
 
 ![Reviews_metrics_RB_adjstyle](./assets/figures/MetricsRB_adjustedstyle.png)
 
@@ -170,18 +172,15 @@ _adapt?: Let's explore the distribution of the languages that can be found in th
 
 We find that the most represented languages by the gluten-free drinkers are English and French. Assuming that Bobos like to hide among the gluten-free drinkers, this confirms our suspicion: the "Bobo"s are mostly present in France, Belgium, and maybe the US and Canada, which we can only assume, but we need to take it into account as English is the most represented language. 
 
-First, we define a gluten-free user as someone who has rated at least one gluten-free beer and dub the potential "Bobo"s that are present in USA and Canada as the 'English-speaking "Bobo"s', and in France and Belgium the 'French-speaking "Bobo"s'. French Guiana and Corsica are a minorly represented, but also French speaking countries, **[how is the language?]**, and therefore considered for the further steps to answer the question: "Are there differences between 'English-speaking "Bobo"s' and their fellows 
-With that, we have all that we need. **We can then proceed to ask ourselves: are the English-speaking Bobos different from their French accolytes?** _adapt:_ 
+First, we define a gluten-free user as someone who has rated at least one gluten-free beer and dub the potential "Bobo"s that are present in USA and Canada as the 'English-speaking "Bobo"s', and in France and Belgium the 'French-speaking "Bobo"s'. French Guiana and Corsica are a minorly represented, but also French speaking countries, **[how is the language?]**, and therefore considered for the further steps to answer the question: "Are there differences between 'English-speaking "Bobo"s' and their fellow 'French-speaking "Bobo"s'?"
 
-Hence, we divide our textual analysis into two parts: The first analyses the French-speaking Bobos, and the second analyses the English-speaking Bobos. 
-
-We decided to only focus on adjective and adverbs in the dataset as they are more representative of the Beer reviews, and the users who write them. after processing steps, we were able to cluster the users based on the vocabulary they used in their reviews. 
+We decided to only focus on adjective and adverbs in the dataset as they are more representative of beer reviews, and the users who write them. After processing steps, we were able to cluster the users based on the vocabulary they used in their reviews. 
 
 We found that one of the clusters had a proportion of more than 80% of reviewers who share similar linguistic characteristic, which very heavily pointed towards gluten-free users.
 
 This analysis however served to prove the differences between gluten-free and non-gluten-free users, but was not at all sufficient to identify the Bobos inside the gluten-free reviewers.
 
-That is why we needed to go deeper in the analysis of the vocabulary. We established a logistic classifier predicting whether or not a person is q glutenfree user or not bqsed on the adjectives and adverb he use. We then analysed the features that most effectively predict if someome is a glutenfree user or not. the features that best oredict the ratings from glutenfree consumers.these words could be present in glutenfree users and conventional beers users but with counts with large variability.In this word, some of them are very common used but someone such as metal are very close to the first word that we think are related with BOBO. A second analysis about words that are only used by glutenfree user has been performed, and we get similar accuracy of the model. 
+That is why we needed to go deeper in the analysis of the vocabulary. We established a logistic classifier predicting whether or not a person is a glutenfree user or not based on the adjectives and adverb he use. We then analysed the features that most effectively predict the features that best predict if the ratings are from glutenfree consumers or not. On contrary, the words could be present for glutenfree users and conventional beers users but with counts with large variability. In this bag-of-words, some of them are commonly used but some words, such as metal, is very close to the first word that we think is related with BOBO. A second analysis about words that are only used by glutenfree user has been performed, and we get similar accuracy of the model. 
 
 we design qa claassifier to detect paragraphs from bobo.
 
