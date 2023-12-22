@@ -18,7 +18,7 @@ Welcome to the team! Meet the brilliant minds behind the "Beer Quest - On Findin
 </div>
 
 - **Role:** Lead Investigator
-- **Expertise:** Data Scientist
+- **Expertise:** Allrounder, CPU
 
 <div style="clear: both;"></div>
 
