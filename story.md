@@ -174,11 +174,13 @@ We find that the most represented languages by the gluten-free drinkers are Engl
 
 First, we define a gluten-free user as someone who has rated at least one gluten-free beer and dub the potential "Bobo"s that are present in USA and Canada as the 'English-speaking "Bobo"s', and in France and Belgium the 'French-speaking "Bobo"s'. French Guiana and Corsica are a minorly represented, but also French speaking countries, **[how is the language?]**, and therefore considered for the further steps to answer the question: "Are there differences between 'English-speaking "Bobo"s' and their fellow 'French-speaking "Bobo"s'?"
 
-We decided to only focus on adjective and adverbs in the dataset as they are more representative of beer reviews, and the users who write them. After processing steps, we were able to cluster the users based on the vocabulary they used in their reviews. 
+As we aim to cluster the words used by the two groups, our focus lies on analyzing the frequency of adverbs and adjectives—shedding light on the users' semantics within beer reviews. This detective work seeks to unravel a clearer understanding of the users and the nuances they share, or that distinguishes them.
+
 
 We found that one of the clusters had a proportion of more than 80% of reviewers who share similar linguistic characteristic, which very heavily pointed towards gluten-free users.
 
-This analysis however served to prove the differences between gluten-free and non-gluten-free users, but was not at all sufficient to identify the Bobos inside the gluten-free reviewers.
+**[actual]:  This analysis however served to prove the differences between gluten-free and non-gluten-free users, but was not at all sufficient to identify the Bobos inside the gluten-free reviewers.
+_adapt? > We are on the right track as we were able to pinpoint an interesting set of users, that is not necessarily consuming glutenfree_ 
 
 That is why we needed to go deeper in the analysis of the vocabulary. We established a logistic classifier predicting whether or not a person is a glutenfree user or not based on the adjectives and adverb he use. We then analysed the features that most effectively predict the features that best predict if the ratings are from glutenfree consumers or not. On contrary, the words could be present for glutenfree users and conventional beers users but with counts with large variability. In this bag-of-words, some of them are commonly used but some words, such as metal, is very close to the first word that we think is related with BOBO. A second analysis about words that are only used by glutenfree user has been performed, and we get similar accuracy of the model. 
 
