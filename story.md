@@ -126,7 +126,7 @@ Then we can see two main dynamics here: one with one or two big booms in consump
 
 It is important to note that 98% of the people who reviewed gluten-free beers also reviewed beers containing gluten, so do not have to drink gluten-free beers for health reason (or are not strictly prohibiting gluten in their diet). This number is quite surprising, but could be explained because people who have to follow a gluten-free diet are not used to beer-drinking and so would less comment on websites such as BeerAdvocate or RateBeer.
 
-> Our investigation has uncovered some characteristics of what we can call a gluten-free trend. It has exploded in 2012 but not equally in every-country. Some countries still were "highly" consuming gluten-free beers in 2017. Those countries happen to be the ones known to be home of "bobos". That might be a coincidence, or not, and require a deeper look before reporting to the IBL.  
+> Our investigation has uncovered some characteristics of what we can call a gluten-free trend. It has exploded in 2012 but not equally in every-country. Some countries still were "highly" consuming gluten-free beers in 2017. Those countries happen to be the ones known to be home of "bobos", which is our original suspicion. However, that might also be a coincidence, and so it is required to take a deeper look before reporting to the IBL.  
 
 
 ### The Bobo Opinion: Decoding the Rating Conundrum
