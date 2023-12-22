@@ -154,9 +154,13 @@ Now we can adress the issue mentioned beforehands, and repeat the same analysis 
 
 No difference is visible between the ratings of the subset adjusted in beerstyle and the original one, then the difference between gluten-free and usual ratings cannot be explained by a change in the beerstyle. 
 
+> Yet, even though the numeric ratings are lower for gluten-free beers, their consumption increased and kept increasing in 2017 for some countries (France, Belgium). Could this be because people do not seek to drink a good and tasteful beer when trying a gluten-free one, but to distinguish themselves socially (A characteristic of the "Bobo"s, even more intriguing as France and Belgium are the home of the locally famous "Bobo parisiens" and "Bobo bruxellois"). Or could it be that the ratings were given as a comparison to beers with gluten, which could be biased by the expectancies of the reviewer? 
+
+implement Mathieus Sentiment analysis! (checking the plots)
+
+wait with conclu:
 Our conclusion that we hereby send to the IBDC is that, indeed, gluten-free beers seem worse than usual beers on all metrics seen. However this can mean two things, that gluten-free beers are actually worse than normal beers, or that the ratings given  
 
-> Yet, even though the numeric ratings are lower for gluten-free beers, their consumption increased and kept increasing in 2017 for some countries (France, Belgium). Could this be because people do not seek to drink a good and tastefull beer when trying a gluten-free one, but to distinguish themselves socially? This is one characteristic of the Bobo we are inquired to search for. This is even more intriguing as France and Belgium are the home of the locally famous "Bobo parisiens" and "Bobo bruxellois".
 
 ### The Bobo Blueprint: Crafting the Profile Puzzle with Textual Analysis
 
