@@ -142,13 +142,23 @@ The first things we did to investigate this, was to look at all the reviews metr
 Represented are the mean value of each review metrics +/- SEM per year. 
 From this analysis, it seems that the gluten-free beers are worse from usual beers for all metrics considered. Although those metrics are increasing for gluten-free beers around 2011, when the gluten-free trend was starting for beers, they stay lower than usual beers. It is also interesting to see that those metrics also increase over time, more smoothly, for usual beers. Could the rumors spread in the IBDC HQs be true?
 
-As reliable IBDC investigators, we think it is not clear yet. We saw that the beer style are very different between gluten-free beers and non-gluten-free ones. One type of beer could be more appreciate, more tasteful or have more aroma than another one. It is then possible that the beerstyle is a confounding factor in this analysis. 
+As reliable IBDC investigators, we think it is not clear yet. We saw that the beerstyle are very different between gluten-free beers and non-gluten-free ones. One type of beer could be more appreciate, more tasteful or have more aroma than another one. It is then possible that the beerstyle is a confounding factor in this analysis. 
 
-We put the frame for the new data around the following beer styles:
+We put the frame for the new data around the following beerstyles:
 
-<iframe src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/html/beer_styles.html" height="600px" width="100%" style="border:none;"></iframe>
+<div id="iframeContainer" style="height: 300px; overflow: hidden;">
+    <iframe id="myIframe" src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/html/beer_styles.html" width="100%" style="border:none;"></iframe>
+</div>
 
-Now we can adress the issue mentioned beforehands, and repeat the same analysis with a subsetted RateBeer dataset that contains the same beer style as the gluten-free ratings.
+<script>
+window.onload = function() {
+    var iframe = document.getElementById('myIframe');
+    var newHeight = iframe.contentWindow.document.body.scrollHeight - 300; // Reduce 300px from the height
+    document.getElementById('iframeContainer').style.height = newHeight + 'px';
+};
+</script>
+
+Now we can adress the issue mentioned beforehands, and repeat the same analysis with a subsetted RateBeer dataset that contains the same beerstyle as the gluten-free ratings.
 
 ![Reviews_metrics_RB_adjstyle](./assets/figures/MetricsRB_adjustedstyle.png)
 
