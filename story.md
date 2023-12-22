@@ -145,19 +145,7 @@ From this analysis, it seems that the gluten-free beers are worse from usual bee
 As reliable IBDC investigators, we think it is not clear yet. We saw that the beerstyle are very different between gluten-free beers and non-gluten-free ones. One type of beer could be more appreciate, more tasteful or have more aroma than another one. It is then possible that the beerstyle is a confounding factor in this analysis. 
 
 We put the frame for the new data around the following beerstyles:
-
-<div id="iframeContainer" style="height: 300px; overflow: hidden;">
-    <iframe id="myIframe" src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/html/beer_styles.html" width="100%" style="border:none;"></iframe>
-</div>
-
-<script>
-window.onload = function() {
-    var iframe = document.getElementById('myIframe');
-    var newHeight = iframe.contentWindow.document.body.scrollHeight - 300; // Reduce 300px from the height
-    document.getElementById('iframeContainer').style.height = newHeight + 'px';
-};
-</script>
-
+<iframe id="myIframe" src="https://jay4biopz.github.io/adarescueteam-beerquest/assets/html/beer_styles.html" width="100%" style="border:none;"></iframe>
 Now we can adress the issue mentioned beforehands, and repeat the same analysis with a subsetted RateBeer dataset that contains the same beerstyle as the gluten-free ratings.
 
 ![Reviews_metrics_RB_adjstyle](./assets/figures/MetricsRB_adjustedstyle.png)
