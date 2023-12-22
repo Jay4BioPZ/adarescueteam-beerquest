@@ -56,18 +56,6 @@ This way, we have identified this many gluten-free beers (duplicates were remove
   </table>
 </div>
 
-<div>
- <p align="center">
-  <table>
-  | Dataset | Gluten-free beers | Non-gluten-free beers |
-  | :------ |:--- | :--- |
-  | RateBeer | 213 | 396484 |
-  | BeerAdvocate | 121 | 211688 |
-  | Total | 313 | 592069 |
-  </table> 
- </p>
-</div>
-
 If we take a look at the amount of reviews for gluten-free beers, we can see that it is clearly increasing. The datasets goes up to August 2017, which explains a lower amount of reviews for 2017.  However, seasoned detectives like us must always stay vigilant: is the reason for this increase because of the increase of the popularity of the websites? Or is it because of the increase of total number of reviews in the dataset? To look at that, we look at the proportion of total reviews that are made on gluten-free beers for each year.
 
 ![GF_temporal_amount](./assets/figures/Spatiotemporal_analysis/GF_temporal.png)
@@ -85,18 +73,51 @@ We then color the countries according to the ratio 'gluten-free/non-gluten-free'
 The size of the human icon represents the number of users, but the size-scaling follows a cubic root function to avoid the dominance of large countries.
 We can see that the ratio is the highest in France, reaching 0.66% of all reviews from France. This country is known to be the main home of bobos, with Belgium (ranked 3rd with 0.34%). On the American continent, in Canada the ratio is of 0.28% whereas in the US it is only 0.06%. From this, we can see that countries with high number of gluten-free reviews (e.g. Canada, Denmark, USA) are not always the ones with high gluten-free/non-gluten-free. 
 
-<div style="margin-left: auto;
-            margin-right: auto;
-            width: 30%">
- 
-| Country | Rank | Ratio | Gluten-free reviews number |
-| :------ |:---- | :---- | :--------|
-| France | 1 | 0.006610 | 116 |
-| Latvia | 2 | 0.003757 | 10 |
-| Belgium | 3 | 0.003385 | 100 |
-| Canada | 9 | 0.002826 | 799 |
-| Denmark | 17 | 0.001504 | 409 |
-| USA | 41 | 0.000607 | 892 |
+<div align="center">
+  <table>
+    <tr>
+      <th>Country</th>
+      <th>Rank</th>
+      <th>Ratio</th>
+      <th>Gluten-free reviews number</th>
+    </tr>
+    <tr>
+      <td>France</td>
+      <td>1</td>
+      <td>0.006610</td>
+      <td>116</td>
+    </tr>
+    <tr>
+      <td>Latvia</td>
+      <td>2</td>
+      <td>0.003757</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>Belgium</td>
+      <td>3</td>
+      <td>0.003385</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>Canada</td>
+      <td>9</td>
+      <td>0.002826</td>
+      <td>799</td>
+    </tr>
+    <tr>
+      <td>Denmark</td>
+      <td>17</td>
+      <td>0.001504</td>
+      <td>409</td>
+    </tr>
+    <tr>
+      <td>USA</td>
+      <td>41</td>
+      <td>0.000607</td>
+      <td>892</td>
+    </tr>
+  </table>
 </div>
 
 However, the spationtemporal analyis SPATIAL TEMPORAL ANALYSIS WITH FRANCE BELGIUM, CANADA AND USA
