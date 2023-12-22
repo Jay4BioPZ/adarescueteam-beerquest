@@ -156,6 +156,8 @@ No difference is visible between the ratings of the subset adjusted in beerstyle
 
 > Yet, even though the numeric ratings are lower for gluten-free beers, their consumption increased and kept increasing in 2017 for some countries (France, Belgium). Could this be because people do not seek to drink a good and tasteful beer when trying a gluten-free one, but to distinguish themselves socially (A characteristic of the "Bobo"s, even more intriguing as France and Belgium are the home of the locally famous "Bobo parisiens" and "Bobo bruxellois"). Or could it be that the ratings were given as a comparison to beers with gluten, which could be biased by the expectancies of the reviewer? 
 
+![Sentiment_evolution_over_time](./assets/figures/Sentiment_study/sentiment_evolution_over_time.png)
+
 implement Mathieus Sentiment analysis! (checking the plots)
 
 wait with conclu:
